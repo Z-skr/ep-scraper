@@ -24,8 +24,15 @@ jobs:
       - name: Run scraper
         run: python main.py
 
-      - name: Upload JSON artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: ep_documents
-          path: ep_documents.json
+      - name: Configure git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+      - name: Commit and push JSON
+        run: |
+          git add ep_documents.json
+          git commit -m "Update EP documents"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
