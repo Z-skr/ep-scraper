@@ -5,7 +5,7 @@ import time
 import re
 
 EP_URL = "https://www.europarl.europa.eu/plenary/en/texts-adopted.html"
-DATE_FROM = "01-07-2025"  # YYYY-MM-DD
+DATE_FROM = "01-07-2025"  
 
 # --- Fonctions d'extraction --- (unchanged, keeping your original)
 
