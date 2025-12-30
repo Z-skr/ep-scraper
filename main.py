@@ -3,8 +3,7 @@ import json
 from datetime import datetime
 
 URL = "https://www.europarl.europa.eu/plenary/en/texts-adopted.html"
-
-DATE_START = "01/07/2025"   # FORMAT OBLIGATOIRE : DD/MM/YYYY
+DATE_START = "01/07/2025"  # Format obligatoire DD/MM/YYYY
 OUTPUT_FILE = "ep_documents.json"
 
 
@@ -19,57 +18,48 @@ def run():
         page.goto(URL, timeout=60000)
         page.wait_for_load_state("networkidle")
 
-        # 2️⃣ Cliquer sur "More options"
-        page.locator(".js_expand_collapse h4", has_text="More options").click()
-        page.wait_for_selector(".expand_collapse_content", state="visible", timeout=15000)
+        # 2️⃣ Cliquer sur "More options" si visible
+        more_options = page.locator("h4:has-text('More options')")
+        if more_options.is_visible():
+            more_options.click()
+            page.wait_for_selector(".expand_collapse_content", state="visible", timeout=15000)
 
         # 3️⃣ Remplir la date de début
         page.fill("#refSittingDateStart", DATE_START)
-        page.fill("#refSittingDateEnd", "")  # laisser vide pour toujours jusqu'à aujourd'hui
 
         # 4️⃣ Lancer la recherche
         page.locator("#sidesButtonSubmit").click()
         page.wait_for_load_state("networkidle")
-        page.wait_for_timeout(5000)
+        page.wait_for_timeout(5000)  # attendre que tous les résultats chargent
 
-        # 5️⃣ Pagination et extraction
+        # 5️⃣ Pagination
         while True:
-            articles = page.locator("div.notice")
-            count = articles.count()
-            print(f"📄 Articles sur cette page : {count}")
+            links = page.locator("div.notice")
+            count = links.count()
+            print(f"📄 Documents trouvés sur cette page : {count}")
 
             for i in range(count):
-                article = articles.nth(i)
-
+                notice = links.nth(i)
+                
                 # Titre
-                title = article.locator("p.title a").inner_text().strip()
+                title_elem = notice.locator("p.title a")
+                title = title_elem.inner_text().strip() if title_elem.count() > 0 else ""
 
-                # Description
-                description = article.locator("p.details").inner_text().strip()
-
-                # Date et référence
-                date = article.locator("div.date_reference span.date").inner_text().strip()
-                reference = article.locator("div.date_reference span.reference").inner_text().strip()
-
-                # Documents PDF / DOCX
-                doc_links = []
-                for link in article.locator("ul.documents li a").all():
-                    url = link.get_attribute("href")
+                # Documents
+                doc_links = notice.locator("ul.documents li a")
+                for j in range(doc_links.count()):
+                    link_elem = doc_links.nth(j)
+                    url = link_elem.get_attribute("href")
                     if url and not url.startswith("http"):
                         url = "https://www.europarl.europa.eu" + url
-                    doc_links.append(url)
+                    results.append({
+                        "title": title,
+                        "url": url,
+                        "scraped_at": datetime.utcnow().isoformat()
+                    })
 
-                results.append({
-                    "title": title,
-                    "description": description,
-                    "date": date,
-                    "reference": reference,
-                    "documents": doc_links,
-                    "scraped_at": datetime.utcnow().isoformat()
-                })
-
-            # Pagination : next page
-            next_button = page.locator("a[title='Next']")
+            # Passer à la page suivante si bouton "Next" visible
+            next_button = page.locator("a:has-text('Next')")
             if next_button.is_visible():
                 next_button.click()
                 page.wait_for_load_state("networkidle")
@@ -83,11 +73,12 @@ def run():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ Fichier généré : {OUTPUT_FILE}")
+    print(f"✅ Fichier généré : {OUTPUT_FILE}, total documents : {len(results)}")
 
 
 if __name__ == "__main__":
     run()
+
 
 
 
