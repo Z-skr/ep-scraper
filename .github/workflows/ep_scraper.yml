@@ -24,7 +24,7 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
 
-           - name: Install Chromium dependencies
+      - name: Install Chromium dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y \
@@ -43,7 +43,6 @@ jobs:
             libx11-xcb1 \
             libxcb-dri3-0 \
             libxshmfence1
-
 
       - name: Install Playwright browsers
         run: |
@@ -70,6 +69,7 @@ jobs:
           name: ep_documents_${{ github.run_number }}
           path: ep_documents.json
           retention-days: 90
+
 
 
 
