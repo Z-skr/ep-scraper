@@ -2,8 +2,8 @@ name: Scrape EP Documents
 
 on:
   schedule:
-    - cron: '15 7 * * FRI'
-  workflow_dispatch:
+    - cron: '15 7 * * FRI'  # Tous les vendredis à 07:15
+  workflow_dispatch:       # Permet un déclenchement manuel
 
 jobs:
   scrape:
@@ -31,6 +31,7 @@ jobs:
         with:
           name: ep_documents
           path: ep_documents.json
+
 
 
 
