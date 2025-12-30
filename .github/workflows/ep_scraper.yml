@@ -32,7 +32,7 @@ jobs:
             libatk-bridge2.0-0 \
             libxkbcommon0 \
             libxcomposite1 \
-            libasound2t64 \
+            libasound2 \
             libpangocairo-1.0-0 \
             libatk1.0-0 \
             libcups2 \
@@ -50,7 +50,7 @@ jobs:
 
       - name: Run scraper
         run: python main.py
-        timeout-minutes: 10
+        timeout-minutes: 15
 
       - name: Check output file
         run: |
@@ -61,7 +61,6 @@ jobs:
           else
             echo "❌ ep_documents.json not found"
             exit 1
-          fi
 
       - name: Upload JSON artifact
         uses: actions/upload-artifact@v4
@@ -69,5 +68,6 @@ jobs:
           name: ep_documents_${{ github.run_number }}
           path: ep_documents.json
           retention-days: 90
+
 
 
