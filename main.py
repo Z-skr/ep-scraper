@@ -7,7 +7,6 @@ URL = "https://www.europarl.europa.eu/plenary/en/texts-adopted.html"
 DATE_START = "01/07/2025"   # FORMAT OBLIGATOIRE : DD/MM/YYYY
 DATE_END   = "31/12/2025"
 
-# ⚠️ NOM IDENTIQUE À L’ARTIFACT DANS ep_scraper.yml
 OUTPUT_FILE = "ep_documents.json"
 
 
@@ -15,14 +14,14 @@ def run():
     results = []
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)  # False si tu veux voir le navigateur
+        browser = p.chromium.launch(headless=True)
         page = browser.new_page()
 
         # 1️⃣ Charger la page
         page.goto(URL, timeout=60000)
         page.wait_for_load_state("networkidle")
 
-        # 2️⃣ Cliquer sur "More options"
+        # 2️⃣ Cliquer sur "More options" (HTML que TU as fourni)
         page.locator(".js_expand_collapse h4", has_text="More options").click()
 
         # 3️⃣ Attendre l’ouverture du bloc
@@ -32,8 +31,8 @@ def run():
         page.fill("#refSittingDateStart", DATE_START)
         page.fill("#refSittingDateEnd", DATE_END)
 
-        # 5️⃣ Lancer la recherche
-        page.get_by_role("button", name="Search").click()
+        # 5️⃣ Lancer la recherche (✅ CORRECTION ICI)
+        page.locator("#sidesButtonSubmit").click()
 
         # 6️⃣ Attendre les résultats
         page.wait_for_load_state("networkidle")
@@ -70,3 +69,4 @@ def run():
 
 if __name__ == "__main__":
     run()
+
