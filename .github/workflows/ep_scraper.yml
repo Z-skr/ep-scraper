@@ -2,7 +2,7 @@ name: Scrape EP Documents
 
 on:
   schedule:
-    - cron: '15 7 * * FRI'
+    - cron: '15 7 * * FRI'  # chaque vendredi à 07:15
   workflow_dispatch:
 
 jobs:
