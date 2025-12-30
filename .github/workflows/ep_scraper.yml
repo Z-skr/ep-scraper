@@ -1,48 +1,36 @@
 name: Scrape EP Documents
+
 on:
   schedule:
-    - cron: '15 7 * * FRI' # Chaque vendredi 07:15 UTC
+    - cron: '15 7 * * FRI'
   workflow_dispatch:
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
-      - name: Install Python dependencies
+
+      - name: Install dependencies
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
-      - name: Run fetcher
+          playwright install chromium
+
+      - name: Run scraper
         run: python main.py
-        timeout-minutes: 10
-      - name: Check output file
-        run: |
-          if [ -f ep_documents.json ]; then
-            echo "✅ ep_documents.json created successfully"
-            echo "File size: $(du -h ep_documents.json | cut -f1)"
-            echo "Number of documents: $(jq length ep_documents.json)"
-          else
-            echo "❌ ep_documents.json not found"
-            exit 1
-          fi
+
       - name: Upload JSON artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ep_documents_${{ github.run_number }}
+          name: ep_documents
           path: ep_documents.json
-          retention-days: 90
-      - name: Upload debug artifacts
-        if: always()  # Même si ça échoue
-        uses: actions/upload-artifact@v4
-        with:
-          name: debug_screenshots_html_${{ github.run_number }}
-          path: debug/
-          retention-days: 30
+
 
 
