@@ -2,37 +2,56 @@ name: Scrape EP Documents
 
 on:
   schedule:
-    - cron: '15 7 * * FRI'
+    - cron: '15 7 * * FRI'  # Chaque vendredi 07:15 UTC
   workflow_dispatch:
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: 'pip'
-      
+
       - name: Install Python dependencies
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
-      
+
+      - name: Install Chromium dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3 \
+            libatk-bridge2.0-0 \
+            libxkbcommon0 \
+            libxcomposite1 \
+            libasound2t64 \
+            libpangocairo-1.0-0 \
+            libatk1.0-0 \
+            libcups2 \
+            libdrm2 \
+            libgbm1 \
+            libxrandr2 \
+            libxdamage1 \
+            libx11-xcb1 \
+            libxcb-dri3-0 \
+            libxshmfence1
+
       - name: Install Playwright browsers
         run: |
           playwright install chromium
-          playwright install-deps chromium
-      
+
       - name: Run scraper
         run: python main.py
         timeout-minutes: 10
-      
+
       - name: Check output file
         run: |
           if [ -f ep_documents.json ]; then
@@ -43,11 +62,12 @@ jobs:
             echo "❌ ep_documents.json not found"
             exit 1
           fi
-      
+
       - name: Upload JSON artifact
         uses: actions/upload-artifact@v4
         with:
           name: ep_documents_${{ github.run_number }}
           path: ep_documents.json
           retention-days: 90
+
 
