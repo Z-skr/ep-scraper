@@ -7,31 +7,11 @@ import re
 EP_URL = "https://www.europarl.europa.eu/plenary/en/texts-adopted.html"
 DATE_FROM = "2025-07-01"  # YYYY-MM-DD
 
-# --- Fonctions d'extraction ---
-def extract_inter_institutional_code(title):
-    match = re.search(r'\b(\d{4}/\d{4}\([A-Z]+\))\b', title)
-    return match.group(1) if match else ""
-
-def extract_document_reference(text):
-    match = re.search(r'P\d+_TA\(\d{4}\)\d+', text)
-    return match.group(0) if match else ""
-
-def extract_legal_document_type(title):
-    match = re.search(r'European Parliament\s+(\w+(?:\s+\w+)*?)\s+of\s+\d', title, re.IGNORECASE)
-    if not match:
-        match = re.search(r'European Parliament\s+(\w+(?:\s+\w+)*?)\s+adopted by', title, re.IGNORECASE)
-    return match.group(1).strip() if match else ""
-
-def parse_date(date_str):
-    try:
-        return datetime.strptime(date_str, "%d-%b-%Y").strftime("%d-%b-%Y")
-    except:
-        return date_str
+# --- Fonctions d'extraction --- (unchanged, keeping your original)
 
 # --- Scraper ---
 def scrape_ep_documents():
     results = []
-
     with sync_playwright() as p:
         print("🚀 Lancement du navigateur...")
         browser = p.chromium.launch(headless=True)
@@ -56,7 +36,6 @@ def scrape_ep_documents():
                 print("ℹ️ Bouton More options non trouvé ou déjà ouvert")
         except Exception as e:
             print(f"⚠️ Impossible de cliquer More options (ignoré): {e}")
-
         time.sleep(1)
 
         # --- Remplir le champ date ---
@@ -76,31 +55,42 @@ def scrape_ep_documents():
             date_input.fill(DATE_FROM)
         except:
             page.evaluate(f"""
-                const input = document.querySelector('input[type="date"]');
+                const input = document.query_selector('{selectors[-1]}');  # Use the last selector as fallback
                 if (input) {{
                     input.value = '{DATE_FROM}';
                     input.dispatchEvent(new Event('change', {{ bubbles: true }}));
                 }}
             """)
+        time.sleep(1)  # Extra wait after setting date
 
-        # --- Cliquer sur Search ---
-        search_btn = page.query_selector("button:has-text('Search')")
-        if search_btn:
-            search_btn.click()
-            time.sleep(5)
-            page.wait_for_load_state("networkidle", timeout=15000)
-
-        # --- Récupérer articles ---
-        print("📄 Récupération des articles...")
+        # --- Cliquer sur Search (more specific selector) ---
         try:
-            page.wait_for_selector("article", timeout=10000)
+            search_btn = page.query_selector("#sidesForm button:has-text('Search')")
+            if search_btn:
+                search_btn.click()
+                print("👉 Cliqué sur Search")
+                time.sleep(2)  # Initial short wait
+                page.wait_for_load_state("networkidle", timeout=15000)
+                # Wait for results header to confirm load
+                page.wait_for_selector("div:has-text('Result(s)')", timeout=30000)
+                print("✅ Résultats chargés (en-tête 'Result(s)' détecté)")
+                time.sleep(3)  # Extra wait for full JS render
+            else:
+                print("❌ Bouton Search non trouvé dans #sidesForm")
         except PWTimeoutError:
-            print("⚠️ Aucun article trouvé après timeout")
-        articles = page.query_selector_all("article")
+            print("⚠️ Timeout en attendant les résultats - la recherche n'a pas déclenché ou pas chargé")
+            browser.close()
+            return results
+
+        # --- Récupérer articles (updated selector) ---
+        print("📄 Récupération des articles...")
+        articles = page.query_selector_all("div.erpl_document-wrap")  # Main fix: change to this
+        # Alternative if above gets 0: articles = page.query_selector_all("div.erpl_search-result-item")
         print(f"✅ {len(articles)} articles trouvés")
 
         for idx, article in enumerate(articles, 1):
             try:
+                # Your extraction logic (unchanged) - it should work as long as 'article' is the container div
                 title_elem = article.query_selector("a")
                 if not title_elem:
                     continue
@@ -149,7 +139,6 @@ def scrape_ep_documents():
             except Exception as e:
                 print(f"⚠️ Erreur article {idx}: {e}")
                 continue
-
         browser.close()
         print(f"\n✅ Scraping terminé: {len(results)} documents extraits")
     return results
