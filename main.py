@@ -1,11 +1,13 @@
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import sync_playwright, TimeoutError as PWTimeoutError
 from datetime import datetime
 import json
+import time
 import re
 
 EP_URL = "https://www.europarl.europa.eu/plenary/en/texts-adopted.html"
 DATE_FROM = "2025-07-01"  # YYYY-MM-DD
 
+# --- Fonctions d'extraction ---
 def extract_inter_institutional_code(title):
     match = re.search(r'\b(\d{4}/\d{4}\([A-Z]+\))\b', title)
     return match.group(1) if match else ""
@@ -26,6 +28,7 @@ def parse_date(date_str):
     except:
         return date_str
 
+# --- Scraper ---
 def scrape_ep_documents():
     results = []
 
@@ -33,51 +36,95 @@ def scrape_ep_documents():
         print("🚀 Lancement du navigateur...")
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
+        print(f"📡 Chargement de la page: {EP_URL}")
         page.goto(EP_URL, timeout=60000)
         page.wait_for_load_state("networkidle", timeout=30000)
+        time.sleep(2)
 
-        # Ouvrir "More options" si présent
-        more_btn = page.query_selector("text=More options")
-        if more_btn:
-            more_btn.click()
-            page.wait_for_selector("text=Less options", timeout=10000)
+        # --- Ouvrir More options de façon robuste ---
+        try:
+            page.wait_for_selector("text=More options", timeout=10000)
+            more_btn = page.query_selector("text=More options")
+            if more_btn:
+                page.evaluate("element => element.scrollIntoView()", more_btn)
+                page.wait_for_selector("text=More options", state="visible", timeout=10000)
+                more_btn.click()
+                print("👉 Cliqué sur More options")
+                page.wait_for_selector("text=Less options", timeout=10000)
+                print("✅ Panneau More options ouvert")
+            else:
+                print("ℹ️ Bouton More options non trouvé ou déjà ouvert")
+        except Exception as e:
+            print(f"⚠️ Impossible de cliquer More options (ignoré): {e}")
 
-        # Remplir le champ date si présent
-        date_input = page.query_selector("input[type='date']")
-        if date_input:
+        time.sleep(1)
+
+        # --- Remplir le champ date ---
+        print(f"📅 Remplissage du champ date avec: {DATE_FROM}")
+        date_input = None
+        selectors = ["input[type='date']", "input[name*='from' i]", "label:has-text('Sittings from') + input", "#sidesForm input[type='date']"]
+        for selector in selectors:
+            date_input = page.query_selector(selector)
+            if date_input:
+                print(f"✅ Champ date trouvé: {selector}")
+                break
+        if not date_input:
+            print("❌ Aucun champ date trouvé")
+            browser.close()
+            return results
+        try:
             date_input.fill(DATE_FROM)
+        except:
+            page.evaluate(f"""
+                const input = document.querySelector('input[type="date"]');
+                if (input) {{
+                    input.value = '{DATE_FROM}';
+                    input.dispatchEvent(new Event('change', {{ bubbles: true }}));
+                }}
+            """)
 
-        # Cliquer sur Search
+        # --- Cliquer sur Search ---
         search_btn = page.query_selector("button:has-text('Search')")
         if search_btn:
             search_btn.click()
+            time.sleep(5)
             page.wait_for_load_state("networkidle", timeout=15000)
 
-        # Récupérer tous les articles
-        items = page.query_selector_all("ul.results li")  # adapte selon inspection du site
-        print(f"✅ {len(items)} éléments trouvés")
+        # --- Récupérer articles ---
+        print("📄 Récupération des articles...")
+        try:
+            page.wait_for_selector("article", timeout=10000)
+        except PWTimeoutError:
+            print("⚠️ Aucun article trouvé après timeout")
+        articles = page.query_selector_all("article")
+        print(f"✅ {len(articles)} articles trouvés")
 
-        for idx, item in enumerate(items, 1):
+        for idx, article in enumerate(articles, 1):
             try:
-                title_elem = item.query_selector("a")
-                title = title_elem.inner_text().strip() if title_elem else ""
-                href = title_elem.get_attribute("href") if title_elem else ""
-                full_url = href if href.startswith("http") else "https://www.europarl.europa.eu" + href
-
-                text_content = item.inner_text()
-
-                inter_inst_code = extract_inter_institutional_code(title)
-                doc_reference = extract_document_reference(text_content)
-                legal_type = extract_legal_document_type(title)
-
-                # Extraire date
-                date_match = re.search(r'(\d{2}-[A-Za-z]{3}-\d{4})', text_content)
+                title_elem = article.query_selector("a")
+                if not title_elem:
+                    continue
+                bold_title = title_elem.inner_text().strip()
+                href = title_elem.get_attribute("href")
+                if not href:
+                    continue
+                pdf_url = href if href.startswith("http") else "https://www.europarl.europa.eu" + href
+                article_text = article.inner_text()
+                full_title_lines = article_text.split('\n')
+                full_title = ""
+                for line in full_title_lines[1:]:
+                    if line.strip() and not line.startswith('P10_TA'):
+                        full_title = line.strip()
+                        break
+                inter_inst_code = extract_inter_institutional_code(full_title)
+                doc_name = re.sub(r'\s*\d{4}/\d{4}\([A-Z]+\)\s*$', '', full_title).strip()
+                legal_type = extract_legal_document_type(full_title)
+                doc_reference = extract_document_reference(article_text)
+                date_match = re.search(r'(\d{2}-[A-Za-z]{3}-\d{4})', article_text)
                 published_date = parse_date(date_match.group(1)) if date_match else ""
-
-                # Extraire PDF / DOCX si présent
                 pdf_link = ""
                 docx_link = ""
-                links = item.query_selector_all("a")
+                links = article.query_selector_all("a")
                 for link in links:
                     link_href = link.get_attribute("href")
                     link_text = link.inner_text().strip().lower()
@@ -85,26 +132,26 @@ def scrape_ep_documents():
                         full_link = link_href if link_href.startswith("http") else "https://www.europarl.europa.eu" + link_href
                         if "pdf" in link_href.lower() or "pdf" in link_text:
                             pdf_link = full_link
-                        elif "doc" in link_href.lower() or "word" in link_text:
+                        elif "doc" in link_href.lower() or "word" in link_text or link_text == "w":
                             docx_link = full_link
-
-                results.append({
+                entry = {
                     "Source": "Plenary",
                     "Inter-institutional code": inter_inst_code,
                     "Document reference": doc_reference,
-                    "Latest EP document name": title,
+                    "Latest EP document name": doc_name,
                     "Legal document type": legal_type,
                     "Latest EP PDF link": pdf_link,
                     "Latest EP Docx link": docx_link,
                     "Published Date": published_date,
                     "Date when first parsed": datetime.utcnow().strftime("%d-%b-%Y")
-                })
+                }
+                results.append(entry)
             except Exception as e:
-                print(f"⚠️ Erreur élément {idx}: {e}")
+                print(f"⚠️ Erreur article {idx}: {e}")
                 continue
 
         browser.close()
-    print(f"\n✅ Scraping terminé: {len(results)} documents extraits")
+        print(f"\n✅ Scraping terminé: {len(results)} documents extraits")
     return results
 
 if __name__ == "__main__":
@@ -115,5 +162,3 @@ if __name__ == "__main__":
     with open("ep_documents.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"\n💾 Données sauvegardées dans: ep_documents.json")
-
-
