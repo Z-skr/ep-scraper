@@ -5,67 +5,49 @@ from datetime import datetime
 URL = "https://www.europarl.europa.eu/plenary/en/texts-adopted.html"
 OUTPUT_FILE = "ep_documents.json"
 
+
 def run():
     results = []
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
-        page = browser.new_page(viewport={"width": 1920, "height": 1080})
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
 
         print("🌐 Chargement de la page...")
         page.goto(URL, timeout=120000)
         page.wait_for_load_state("networkidle")
-        page.wait_for_timeout(3000)  # laisser le JS charger
+        page.wait_for_timeout(3000)
 
-        # Boucle sur les pages de résultats (pagination)
-        while True:
-            print("📄 Extraction des documents de la page...")
+        # Scroll pour forcer le chargement des notices
+        page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+        page.wait_for_timeout(3000)
 
-            notices = page.locator("div.notice")
-            count = notices.count()
-            for i in range(count):
-                notice = notices.nth(i)
-                
-                # Titre principal
-                title_elem = notice.locator("p.title a")
-                title = title_elem.inner_text().strip() if title_elem.count() > 0 else ""
-                
-                # Description / details
-                details_elem = notice.locator("p.details")
-                details = details_elem.inner_text().strip() if details_elem.count() > 0 else ""
+        # Vérifier s'il y a des notices
+        notice_count = page.locator("div.notice").count()
+        if notice_count == 0:
+            print("⚠️ Aucun document trouvé, attendre un peu plus...")
+            page.wait_for_timeout(5000)
+            notice_count = page.locator("div.notice").count()
 
-                # Documents PDF / DOCX
-                docs = []
-                for doc_link in notice.locator("ul.documents li a").all():
-                    doc_url = doc_link.get_attribute("href")
-                    if doc_url and not doc_url.startswith("http"):
-                        doc_url = "https://www.europarl.europa.eu" + doc_url
-                    docs.append(doc_url)
+        print(f"📄 Notices trouvées : {notice_count}")
 
-                # URL HTML
-                html_url = title_elem.get_attribute("href") if title_elem.count() > 0 else ""
-                if html_url and not html_url.startswith("http"):
-                    html_url = "https://www.europarl.europa.eu" + html_url
+        # Boucle sur les notices
+        for i in range(notice_count):
+            notice = page.locator("div.notice").nth(i)
+            title_elem = notice.locator("p.title a")
+            title = title_elem.inner_text().strip() if title_elem.count() > 0 else ""
+            url_elem = title_elem
+            url = url_elem.get_attribute("href") if url_elem.count() > 0 else ""
 
-                # Ajouter à la liste
-                results.append({
-                    "title": title,
-                    "details": details,
-                    "url_html": html_url,
-                    "documents": docs,
-                    "scraped_at": datetime.utcnow().isoformat()
-                })
+            # Ajouter le domaine si nécessaire
+            if url and not url.startswith("http"):
+                url = "https://www.europarl.europa.eu" + url
 
-            # Pagination : bouton "Next" s'il existe
-            next_buttons = page.locator("a.next")
-            if next_buttons.count() > 0:
-                print("➡️ Passage à la page suivante...")
-                next_buttons.first.click()
-                page.wait_for_load_state("networkidle")
-                page.wait_for_timeout(3000)
-            else:
-                print("✅ Dernière page atteinte.")
-                break
+            results.append({
+                "title": title,
+                "url": url,
+                "scraped_at": datetime.utcnow().isoformat()
+            })
 
         browser.close()
 
@@ -73,11 +55,12 @@ def run():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print(f"🎯 Fichier généré : {OUTPUT_FILE}")
-    print(f"📄 Total documents : {len(results)}")
+    print(f"✅ Fichier généré : {OUTPUT_FILE}, total documents : {len(results)}")
+
 
 if __name__ == "__main__":
     run()
+
 
 
 
