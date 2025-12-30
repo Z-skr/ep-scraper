@@ -50,7 +50,7 @@ jobs:
 
       - name: Run scraper
         run: python main.py
-        timeout-minutes: 15
+        timeout-minutes: 10
 
       - name: Check output file
         run: |
@@ -61,6 +61,7 @@ jobs:
           else
             echo "❌ ep_documents.json not found"
             exit 1
+          fi
 
       - name: Upload JSON artifact
         uses: actions/upload-artifact@v4
@@ -68,6 +69,7 @@ jobs:
           name: ep_documents_${{ github.run_number }}
           path: ep_documents.json
           retention-days: 90
+
 
 
 
