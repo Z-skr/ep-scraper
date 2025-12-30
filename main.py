@@ -1,57 +1,54 @@
-import requests
-from bs4 import BeautifulSoup
+import json
+import time
+from playwright.sync_api import sync_playwright
 
-BASE_URL = "https://www.europarl.europa.eu/plenary/en/texts-adopted.html"
+# URL des textes adoptés
+URL = "https://www.europarl.europa.eu/plenary/en/texts-adopted.html"
 
-# Fonction pour récupérer les documents d'une page
-def get_documents_from_html(html):
-    soup = BeautifulSoup(html, "html.parser")
-    notices = soup.select(".listcontent .notice")
-    docs = []
-    for notice in notices:
-        title_tag = notice.select_one("p.title a")
-        pdf_tag = notice.select_one("ul.documents .link_pdf")
-        docx_tag = notice.select_one("ul.documents .link_doc")
-        details_tag = notice.select_one("p.details")
-        date_tag = notice.select_one(".date_reference .date")
-        ref_tag = notice.select_one(".date_reference .reference")
-        
-        doc = {
-            "title": title_tag.get_text(strip=True) if title_tag else None,
-            "link_html": title_tag['href'] if title_tag else None,
-            "link_pdf": pdf_tag['href'] if pdf_tag else None,
-            "link_docx": docx_tag['href'] if docx_tag else None,
-            "details": details_tag.get_text(strip=True) if details_tag else None,
-            "date": date_tag.get_text(strip=True) if date_tag else None,
-            "reference": ref_tag.get_text(strip=True) if ref_tag else None,
-        }
-        docs.append(doc)
-    return docs
+def scrape_ep_documents():
+    data = []
 
-# Fonction principale pour parcourir les pages
-def scrape_all_documents():
-    all_docs = []
-    page = 0
-    while True:
-        # Requête GET avec paramètre de pagination
-        response = requests.get(BASE_URL, params={"action": page})
-        if response.status_code != 200:
-            print(f"Erreur pour la page {page}")
-            break
-        docs = get_documents_from_html(response.text)
-        if not docs:
-            break  # Plus de résultats
-        all_docs.extend(docs)
-        print(f"Page {page + 1} récupérée, {len(docs)} documents")
-        page += 1
-    return all_docs
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+        page.goto(URL)
 
-# Exécution
-documents = scrape_all_documents()
-print(f"Total documents récupérés: {len(documents)}")
+        # Si le site a un bouton "More options" pour filtrer par date
+        try:
+            more_btn = page.query_selector("button[aria-label='More options']")
+            if more_btn:
+                more_btn.click()
+                time.sleep(1)  # attendre que les filtres JS apparaissent
+        except:
+            pass
 
-# Exemple d'affichage
-for d in documents[:5]:  # afficher les 5 premiers
-    print(d)
+        # Sélection de tous les documents
+        notices = page.query_selector_all(".notice")  # adapte le sélecteur si nécessaire
+        for notice in notices:
+            title_elem = notice.query_selector(".title a")
+            if title_elem:
+                title = title_elem.inner_text().strip()
+                link = title_elem.get_attribute("href")
+                date_elem = notice.query_selector(".date")
+                date = date_elem.inner_text().strip() if date_elem else ""
+                data.append({
+                    "title": title,
+                    "link": link,
+                    "date": date
+                })
+
+        browser.close()
+
+    return data
+
+if __name__ == "__main__":
+    documents = scrape_ep_documents()
+
+    # Sauvegarde JSON
+    with open("ep_documents.json", "w", encoding="utf-8") as f:
+        json.dump(documents, f, ensure_ascii=False, indent=2)
+
+    print(f"{len(documents)} documents scraped and saved to ep_documents.json")
+
 
 
