@@ -8,6 +8,7 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
@@ -18,21 +19,15 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          playwright install chromium
 
       - name: Run scraper
         run: python main.py
 
-      - name: Configure git
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-
-      - name: Commit and push JSON
-        run: |
-          git add ep_documents.json
-          git commit -m "Update EP documents"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Upload JSON artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ep_documents
+          path: ep_documents.json
