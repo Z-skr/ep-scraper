@@ -3,8 +3,8 @@ import json
 from datetime import datetime
 
 URL = "https://www.europarl.europa.eu/plenary/en/texts-adopted.html"
+DATE_START = "01/07/2025"   # Format obligatoire : DD/MM/YYYY
 OUTPUT_FILE = "ep_documents.json"
-
 
 def run():
     results = []
@@ -13,53 +13,83 @@ def run():
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
 
-        print("🌐 Chargement de la page...")
-        page.goto(URL, timeout=120000)
+        # 1️⃣ Charger la page
+        page.goto(URL, timeout=60000)
         page.wait_for_load_state("networkidle")
-        page.wait_for_timeout(3000)
 
-        # Scroll pour forcer le chargement des notices
-        page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-        page.wait_for_timeout(3000)
+        # 2️⃣ Cliquer sur "More options" si présent
+        try:
+            page.locator(".js_expand_collapse h4", has_text="More options").click(timeout=5000)
+        except:
+            print("⚠️ 'More options' non trouvé, continuer...")
 
-        # Vérifier s'il y a des notices
-        notice_count = page.locator("div.notice").count()
-        if notice_count == 0:
-            print("⚠️ Aucun document trouvé, attendre un peu plus...")
-            page.wait_for_timeout(5000)
-            notice_count = page.locator("div.notice").count()
+        # 3️⃣ Attendre l’ouverture du bloc
+        page.wait_for_selector(".expand_collapse_content", state="visible", timeout=10000)
 
-        print(f"📄 Notices trouvées : {notice_count}")
+        # 4️⃣ Remplir uniquement la date de début
+        try:
+            page.fill("#refSittingDateStart", DATE_START)
+        except:
+            print("⚠️ Champ date de début non trouvé, continuer...")
 
-        # Boucle sur les notices
-        for i in range(notice_count):
-            notice = page.locator("div.notice").nth(i)
-            title_elem = notice.locator("p.title a")
-            title = title_elem.inner_text().strip() if title_elem.count() > 0 else ""
-            url_elem = title_elem
-            url = url_elem.get_attribute("href") if url_elem.count() > 0 else ""
+        # 5️⃣ Lancer la recherche
+        try:
+            page.locator("#sidesButtonSubmit").click()
+        except:
+            print("⚠️ Bouton Submit non trouvé, continuer...")
 
-            # Ajouter le domaine si nécessaire
-            if url and not url.startswith("http"):
-                url = "https://www.europarl.europa.eu" + url
+        page.wait_for_load_state("networkidle")
+        page.wait_for_timeout(5000)
 
-            results.append({
-                "title": title,
-                "url": url,
-                "scraped_at": datetime.utcnow().isoformat()
-            })
+        # 6️⃣ Pagination
+        while True:
+            # Extraire les articles de la page
+            notices = page.locator(".notice")
+            count = notices.count()
+            print(f"📄 Articles sur la page : {count}")
+
+            for i in range(count):
+                notice = notices.nth(i)
+                # Titre principal
+                title_locator = notice.locator("p.title a")
+                title = title_locator.inner_text().strip() if title_locator.count() > 0 else ""
+                
+                # Tous les documents
+                docs = notice.locator("ul.documents li a")
+                for j in range(docs.count()):
+                    link = docs.nth(j)
+                    url = link.get_attribute("href")
+                    if url and not url.startswith("http"):
+                        url = "https://www.europarl.europa.eu" + url
+                    results.append({
+                        "title": title,
+                        "url": url,
+                        "scraped_at": datetime.utcnow().isoformat()
+                    })
+
+            # Vérifier s’il y a une page suivante
+            try:
+                next_btn = page.locator("a.next")
+                if next_btn.is_visible():
+                    next_btn.click()
+                    page.wait_for_load_state("networkidle")
+                    page.wait_for_timeout(3000)
+                else:
+                    break
+            except:
+                break
 
         browser.close()
 
-    # Sauvegarde JSON
+    # 7️⃣ Sauvegarder JSON
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
     print(f"✅ Fichier généré : {OUTPUT_FILE}, total documents : {len(results)}")
 
-
 if __name__ == "__main__":
     run()
+
 
 
 
