@@ -1,10 +1,13 @@
 from playwright.sync_api import sync_playwright
 import json
 from datetime import datetime
+import os
 
 URL = "https://www.europarl.europa.eu/plenary/en/texts-adopted.html"
 DATE_START = "01/07/2025"
-OUTPUT_FILE = "ep_documents.json"
+
+# Sauvegarde dans le dossier du workspace GitHub Actions
+OUTPUT_FILE = os.path.join(os.getcwd(), "ep_documents.json")
 
 def run():
     results = []
@@ -85,3 +88,4 @@ def run():
 
 if __name__ == "__main__":
     run()
+
