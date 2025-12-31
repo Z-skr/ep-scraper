@@ -6,7 +6,6 @@ import re
 
 URL = "https://www.europarl.europa.eu/plenary/en/texts-adopted.html"
 DATE_START = "01/07/2025"
-
 OUTPUT_FILE = os.path.join(os.getcwd(), "ep_documents.json")
 
 def run():
@@ -63,11 +62,21 @@ def run():
                 if details_loc.count() > 0:
                     details_text = details_loc.inner_text().strip()
 
-                # ✅ Inter-institutional code (COMPLET)
+                # ✅ Legal document type
+                legal_type = ""
+                match_type = re.search(
+                    r"European Parliament\s+(.*?)\s+of\s+\d{1,2}\s+\w+\s+\d{4}",
+                    details_text,
+                    re.IGNORECASE
+                )
+                if match_type:
+                    legal_type = match_type.group(1).capitalize()
+
+                # ✅ Inter-institutional code
                 inter_code = ""
-                match = re.search(r"\((\d{4}/\d+\([A-Z]+\))\)", details_text)
-                if match:
-                    inter_code = match.group(1)
+                match_code = re.search(r"\((\d{4}/\d+\([A-Z]+\))\)", details_text)
+                if match_code:
+                    inter_code = match_code.group(1)
 
                 # ✅ Published date
                 published_date = ""
@@ -81,25 +90,35 @@ def run():
                 if ref_loc.count() > 0:
                     reference = ref_loc.inner_text().strip()
 
-                # Documents (PDF / DOCX)
+                # ✅ Documents (PDF / DOCX)
+                pdf_url = ""
+                docx_url = ""
                 docs = notice.locator("ul.documents li a")
                 for j in range(docs.count()):
                     link = docs.nth(j)
-                    url = link.get_attribute("href")
+                    href = link.get_attribute("href")
+                    if href and not href.startswith("http"):
+                        href = "https://www.europarl.europa.eu" + href
 
-                    if url and not url.startswith("http"):
-                        url = "https://www.europarl.europa.eu" + url
+                    if href.endswith(".pdf"):
+                        pdf_url = href
+                    elif href.endswith(".docx"):
+                        docx_url = href
 
-                    scraped_at = datetime.utcnow().isoformat().replace("T", ",T")
+                # Scraped timestamp
+                scraped_at = datetime.utcnow().isoformat().replace("T", ",T")
 
-                    results.append({
-                        "title": title,
-                        "inter_institutional_code": inter_code,
-                        "reference": reference,
-                        "published_date": published_date,
-                        "url": url,
-                        "scraped_at": scraped_at
-                    })
+                # Append result
+                results.append({
+                    "title": title,
+                    "legal_document_type": legal_type,
+                    "inter_institutional_code": inter_code,
+                    "reference": reference,
+                    "published_date": published_date,
+                    "latest_ep_pdf_link": pdf_url,
+                    "latest_ep_docx_link": docx_url,
+                    "scraped_at": scraped_at
+                })
 
             # Next page
             try:
@@ -124,6 +143,7 @@ def run():
 
 if __name__ == "__main__":
     run()
+
 
 
 
