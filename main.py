@@ -16,64 +16,72 @@ def run():
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
 
+        # 1️⃣ Charger la page
         page.goto(URL, timeout=90000)
         page.wait_for_load_state("networkidle")
 
+        # 2️⃣ More options
         try:
             page.locator(".js_expand_collapse h4", has_text="More options").click(timeout=5000)
         except:
-            pass
+            print("⚠️ 'More options' non trouvé")
 
         page.wait_for_timeout(3000)
 
+        # 3️⃣ Date start
         try:
             page.fill("#refSittingDateStart", DATE_START)
         except:
-            pass
+            print("⚠️ Champ date non trouvé")
 
+        # 4️⃣ Search
         try:
             page.locator("#sidesButtonSubmit").click()
         except:
-            pass
+            print("⚠️ Bouton search non trouvé")
 
         page.wait_for_load_state("networkidle")
         page.wait_for_timeout(5000)
 
+        # 5️⃣ Pagination
         while True:
             notices = page.locator(".notice")
-            print(f"📄 Articles sur cette page : {notices.count()}")
+            print(f"📄 Articles sur la page : {notices.count()}")
 
             for i in range(notices.count()):
                 notice = notices.nth(i)
 
-                # 🔹 Title
+                # Title
                 title = ""
-                title_locator = notice.locator("p.title a")
-                if title_locator.count() > 0:
-                    title = title_locator.inner_text().strip()
+                title_loc = notice.locator("p.title a")
+                if title_loc.count() > 0:
+                    title = title_loc.inner_text().strip()
 
-                # 🔹 Inter-institutional code
+                # Details text
+                details_text = ""
+                details_loc = notice.locator("p.details")
+                if details_loc.count() > 0:
+                    details_text = details_loc.inner_text().strip()
+
+                # ✅ Inter-institutional code (COMPLET)
                 inter_code = ""
-                details_locator = notice.locator("p.details")
-                if details_locator.count() > 0:
-                    details_text = details_locator.inner_text()
-                    match = re.search(r"\(([^()]+)\)", details_text)
-                    if match:
-                        inter_code = match.group(1)
+                match = re.search(r"\((\d{4}/\d+\([A-Z]+\))\)", details_text)
+                if match:
+                    inter_code = match.group(1)
 
-                # 🔹 Reference
-                reference = ""
-                ref_locator = notice.locator("span.reference")
-                if ref_locator.count() > 0:
-                    reference = ref_locator.inner_text().strip()
-
-                # 🔹 Published Date
+                # ✅ Published date
                 published_date = ""
-                date_locator = notice.locator("span.date")
-                if date_locator.count() > 0:
-                    published_date = date_locator.inner_text().replace("Date :", "").strip()
+                date_loc = notice.locator("span.date")
+                if date_loc.count() > 0:
+                    published_date = date_loc.inner_text().replace("Date :", "").strip()
 
-                # 🔹 Documents
+                # ✅ Reference
+                reference = ""
+                ref_loc = notice.locator("span.reference")
+                if ref_loc.count() > 0:
+                    reference = ref_loc.inner_text().strip()
+
+                # Documents (PDF / DOCX)
                 docs = notice.locator("ul.documents li a")
                 for j in range(docs.count()):
                     link = docs.nth(j)
@@ -82,15 +90,18 @@ def run():
                     if url and not url.startswith("http"):
                         url = "https://www.europarl.europa.eu" + url
 
+                    scraped_at = datetime.utcnow().isoformat().replace("T", ",T")
+
                     results.append({
                         "title": title,
                         "inter_institutional_code": inter_code,
                         "reference": reference,
                         "published_date": published_date,
                         "url": url,
-                        "scraped_at": datetime.utcnow().isoformat().replace("T", ",T")
+                        "scraped_at": scraped_at
                     })
 
+            # Next page
             try:
                 next_btn = page.locator("a.next_page")
                 if next_btn.is_visible():
@@ -104,13 +115,16 @@ def run():
 
         browser.close()
 
+    # 6️⃣ Save JSON
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ Fichier généré : {OUTPUT_FILE}, total documents : {len(results)}")
+    print(f"✅ Fichier généré : {OUTPUT_FILE}")
+    print(f"📦 Total documents : {len(results)}")
 
 if __name__ == "__main__":
     run()
+
 
 
 
