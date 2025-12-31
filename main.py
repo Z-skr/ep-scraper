@@ -16,11 +16,9 @@ def run():
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
 
-        # 1️⃣ Charger la page
         page.goto(URL, timeout=90000)
         page.wait_for_load_state("networkidle")
 
-        # 2️⃣ More options
         try:
             page.locator(".js_expand_collapse h4", has_text="More options").click(timeout=5000)
         except:
@@ -28,13 +26,11 @@ def run():
 
         page.wait_for_timeout(3000)
 
-        # 3️⃣ Date start
         try:
             page.fill("#refSittingDateStart", DATE_START)
         except:
             pass
 
-        # 4️⃣ Search
         try:
             page.locator("#sidesButtonSubmit").click()
         except:
@@ -43,7 +39,6 @@ def run():
         page.wait_for_load_state("networkidle")
         page.wait_for_timeout(5000)
 
-        # 5️⃣ Pagination
         while True:
             notices = page.locator(".notice")
             print(f"📄 Articles sur cette page : {notices.count()}")
@@ -52,10 +47,12 @@ def run():
                 notice = notices.nth(i)
 
                 # 🔹 Title
+                title = ""
                 title_locator = notice.locator("p.title a")
-                title = title_locator.inner_text().strip() if title_locator.count() > 0 else ""
+                if title_locator.count() > 0:
+                    title = title_locator.inner_text().strip()
 
-                # 🔹 Inter-institutional code (from details)
+                # 🔹 Inter-institutional code
                 inter_code = ""
                 details_locator = notice.locator("p.details")
                 if details_locator.count() > 0:
@@ -70,7 +67,13 @@ def run():
                 if ref_locator.count() > 0:
                     reference = ref_locator.inner_text().strip()
 
-                # 🔹 Documents (PDF / DOCX / etc.)
+                # 🔹 Published Date
+                published_date = ""
+                date_locator = notice.locator("span.date")
+                if date_locator.count() > 0:
+                    published_date = date_locator.inner_text().replace("Date :", "").strip()
+
+                # 🔹 Documents
                 docs = notice.locator("ul.documents li a")
                 for j in range(docs.count()):
                     link = docs.nth(j)
@@ -83,11 +86,11 @@ def run():
                         "title": title,
                         "inter_institutional_code": inter_code,
                         "reference": reference,
+                        "published_date": published_date,
                         "url": url,
                         "scraped_at": datetime.utcnow().isoformat().replace("T", ",T")
                     })
 
-            # Pagination
             try:
                 next_btn = page.locator("a.next_page")
                 if next_btn.is_visible():
@@ -101,7 +104,6 @@ def run():
 
         browser.close()
 
-    # 6️⃣ Save JSON
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
@@ -109,5 +111,6 @@ def run():
 
 if __name__ == "__main__":
     run()
+
 
 
