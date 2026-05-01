@@ -1,5 +1,595 @@
 [
   {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "2026/2693(RSP)",
+    "reference": "P10_TA(2026)0163",
+    "published_date": "30-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0163_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0163_EN.docx",
+    "scraped_at": "2026-05-01,T09:09:58.604115"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "2026/2701(RSP)",
+    "reference": "P10_TA(2026)0162",
+    "published_date": "30-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0162_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0162_EN.docx",
+    "scraped_at": "2026-05-01,T09:09:58.624257"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "2026/2700(RSP)",
+    "reference": "P10_TA(2026)0161",
+    "published_date": "30-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0161_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0161_EN.docx",
+    "scraped_at": "2026-05-01,T09:09:58.642615"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "2026/2596(RSP)",
+    "reference": "P10_TA(2026)0160",
+    "published_date": "30-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0160_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0160_EN.docx",
+    "scraped_at": "2026-05-01,T09:09:58.661692"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "2025/2136(INI)",
+    "reference": "P10_TA(2026)0159",
+    "published_date": "30-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0159_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0159_EN.docx",
+    "scraped_at": "2026-05-01,T09:09:58.681655"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "2024/2124(INI)",
+    "reference": "P10_TA(2026)0158",
+    "published_date": "30-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0158_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0158_EN.docx",
+    "scraped_at": "2026-05-01,T09:09:58.715099"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "2025/2053(INI)",
+    "reference": "P10_TA(2026)0157",
+    "published_date": "30-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0157_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0157_EN.docx",
+    "scraped_at": "2026-05-01,T09:09:58.733444"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "2025/2209(INI)",
+    "reference": "P10_TA(2026)0156",
+    "published_date": "30-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0156_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0156_EN.docx",
+    "scraped_at": "2026-05-01,T09:09:58.753726"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "2025/2247(BUI)",
+    "reference": "P10_TA(2026)0155",
+    "published_date": "30-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0155_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0155_EN.docx",
+    "scraped_at": "2026-05-01,T09:09:58.773917"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Legislative resolution",
+    "inter_institutional_code": "",
+    "reference": "P10_TA(2026)0154",
+    "published_date": "30-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0154_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0154_EN.docx",
+    "scraped_at": "2026-05-01,T09:09:58.793378"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "2026/2704(RSP)",
+    "reference": "P10_TA(2026)0153",
+    "published_date": "30-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0153_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0153_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:03.409733"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "2026/2703(RSP)",
+    "reference": "P10_TA(2026)0152",
+    "published_date": "30-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0152_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0152_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:03.428920"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "2026/2702(RSP)",
+    "reference": "P10_TA(2026)0151",
+    "published_date": "30-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0151_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0151_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:03.447169"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "",
+    "reference": "P10_TA(2026)0150",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0150_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0150_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:03.468029"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "2025/2955(RSP)",
+    "reference": "P10_TA(2026)0149",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0149_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0149_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:03.490194"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "2025/2016(INI)",
+    "reference": "P10_TA(2026)0148",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0148_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0148_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:03.511781"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "2025/2239(INI)",
+    "reference": "P10_TA(2026)0147",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0147_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0147_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:03.532217"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "2025/2135(INI)",
+    "reference": "P10_TA(2026)0146",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0146_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0146_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:03.551610"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "",
+    "reference": "P10_TA(2026)0145",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0145_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0145_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:03.575101"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Legislative resolution",
+    "inter_institutional_code": "",
+    "reference": "P10_TA(2026)0144",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0144_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0144_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:03.594002"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Legislative resolution",
+    "inter_institutional_code": "",
+    "reference": "P10_TA(2026)0143",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0143_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0143_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:07.835765"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Legislative resolution",
+    "inter_institutional_code": "",
+    "reference": "P10_TA(2026)0142",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0142_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0142_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:07.852713"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Legislative resolution",
+    "inter_institutional_code": "",
+    "reference": "P10_TA(2026)0141",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0141_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0141_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:07.869536"
+  },
+  {
+    "title": "",
+    "legal_document_type": "",
+    "inter_institutional_code": "",
+    "reference": "P10_TA(2026)0140",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0140_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0140_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:07.888770"
+  },
+  {
+    "title": "",
+    "legal_document_type": "",
+    "inter_institutional_code": "",
+    "reference": "P10_TA(2026)0139",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0139_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0139_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:07.907358"
+  },
+  {
+    "title": "",
+    "legal_document_type": "",
+    "inter_institutional_code": "",
+    "reference": "P10_TA(2026)0138",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0138_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0138_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:07.925058"
+  },
+  {
+    "title": "Discharge 2024: Joint Undertakings",
+    "legal_document_type": "Decision",
+    "inter_institutional_code": "2025/2157(DEC)",
+    "reference": "P10_TA(2026)0137",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0137_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0137_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:07.943718"
+  },
+  {
+    "title": "Discharge 2024: Agencies",
+    "legal_document_type": "Decision",
+    "inter_institutional_code": "2025/2156(DEC)",
+    "reference": "P10_TA(2026)0136",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0136_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0136_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:07.962087"
+  },
+  {
+    "title": "Discharge 2024: European Public Prosecutors Office",
+    "legal_document_type": "Decision",
+    "inter_institutional_code": "2025/2155(DEC)",
+    "reference": "P10_TA(2026)0135",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0135_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0135_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:07.981358"
+  },
+  {
+    "title": "Discharge 2024: EU general budget - European Data Protection Supervisor",
+    "legal_document_type": "Decision",
+    "inter_institutional_code": "2025/2154(DEC)",
+    "reference": "P10_TA(2026)0134",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0134_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0134_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:08.000645"
+  },
+  {
+    "title": "Discharge 2024: EU general budget - European Ombudsman",
+    "legal_document_type": "Decision",
+    "inter_institutional_code": "2025/2153(DEC)",
+    "reference": "P10_TA(2026)0133",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0133_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0133_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:12.541199"
+  },
+  {
+    "title": "Discharge 2024: EU general budget - Committee of the Regions",
+    "legal_document_type": "Decision",
+    "inter_institutional_code": "2025/2152(DEC)",
+    "reference": "P10_TA(2026)0132",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0132_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0132_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:12.562288"
+  },
+  {
+    "title": "Discharge 2024: EU general budget - European Economic and Social Committee",
+    "legal_document_type": "Decision",
+    "inter_institutional_code": "2025/2151(DEC)",
+    "reference": "P10_TA(2026)0131",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0131_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0131_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:12.581251"
+  },
+  {
+    "title": "Discharge 2024: EU general budget - European External Action Service",
+    "legal_document_type": "Decision",
+    "inter_institutional_code": "2025/2150(DEC)",
+    "reference": "P10_TA(2026)0130",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0130_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0130_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:12.599904"
+  },
+  {
+    "title": "Discharge 2024: EU general budget - Court of Auditors",
+    "legal_document_type": "Decision",
+    "inter_institutional_code": "2025/2149(DEC)",
+    "reference": "P10_TA(2026)0129",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0129_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0129_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:12.618454"
+  },
+  {
+    "title": "Discharge 2024: EU general budget - Court of Justice of the European Union",
+    "legal_document_type": "Decision",
+    "inter_institutional_code": "2025/2148(DEC)",
+    "reference": "P10_TA(2026)0128",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0128_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0128_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:12.637973"
+  },
+  {
+    "title": "Discharge 2024: EU general budget - European Council and Council",
+    "legal_document_type": "Decision",
+    "inter_institutional_code": "2025/2147(DEC)",
+    "reference": "P10_TA(2026)0127",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0127_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0127_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:12.666012"
+  },
+  {
+    "title": "Discharge 2024: EU general budget - European Parliament",
+    "legal_document_type": "Decision",
+    "inter_institutional_code": "2025/2146(DEC)",
+    "reference": "P10_TA(2026)0126",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0126_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0126_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:12.686067"
+  },
+  {
+    "title": "Discharge 2024: EU general budget - Commission",
+    "legal_document_type": "Decision",
+    "inter_institutional_code": "2025/2145(DEC)",
+    "reference": "P10_TA(2026)0125",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0125_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0125_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:12.722456"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Legislative resolution",
+    "inter_institutional_code": "",
+    "reference": "P10_TA(2026)0124",
+    "published_date": "29-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0124_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0124_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:12.740404"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "2025/2120(INI)",
+    "reference": "P10_TA(2026)0123",
+    "published_date": "28-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0123_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0123_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:17.196721"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "2025/2032(INI)",
+    "reference": "P10_TA(2026)0122",
+    "published_date": "28-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0122_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0122_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:17.214152"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "2025/2054(INI)",
+    "reference": "P10_TA(2026)0121",
+    "published_date": "28-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0121_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0121_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:17.231421"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "2025/2040(INI)",
+    "reference": "P10_TA(2026)0120",
+    "published_date": "28-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0120_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0120_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:17.248405"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "2025/2237(INI)",
+    "reference": "P10_TA(2026)0119",
+    "published_date": "28-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0119_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0119_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:17.265950"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Decision",
+    "inter_institutional_code": "2025/2262(REG)",
+    "reference": "P10_TA(2026)0118",
+    "published_date": "28-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0118_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0118_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:17.283723"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Legislative resolution",
+    "inter_institutional_code": "",
+    "reference": "P10_TA(2026)0117",
+    "published_date": "28-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0117_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0117_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:17.302253"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Legislative resolution",
+    "inter_institutional_code": "",
+    "reference": "P10_TA(2026)0116",
+    "published_date": "28-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0116_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0116_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:17.319771"
+  },
+  {
+    "title": "Welfare of dogs and cats and their traceability",
+    "legal_document_type": "Legislative resolution",
+    "inter_institutional_code": "",
+    "reference": "P10_TA(2026)0115",
+    "published_date": "28-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0115_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0115_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:17.339256"
+  },
+  {
+    "title": "Generalised scheme of tariff preferences",
+    "legal_document_type": "Legislative resolution",
+    "inter_institutional_code": "",
+    "reference": "P10_TA(2026)0114",
+    "published_date": "28-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0114_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0114_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:17.358744"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Legislative resolution",
+    "inter_institutional_code": "",
+    "reference": "P10_TA(2026)0113",
+    "published_date": "28-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0113_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0113_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:21.954189"
+  },
+  {
+    "title": "Guidelines for the 2027 budget - Section III",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "2025/2246(BUI)",
+    "reference": "P10_TA(2026)0112",
+    "published_date": "28-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0112_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0112_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:21.974074"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Resolution",
+    "inter_institutional_code": "",
+    "reference": "P10_TA(2026)0111",
+    "published_date": "28-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0111_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0111_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:21.991990"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Decision",
+    "inter_institutional_code": "2025/2222(IMM)",
+    "reference": "P10_TA(2026)0110",
+    "published_date": "28-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0110_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0110_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:22.009499"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Decision",
+    "inter_institutional_code": "2025/2241(IMM)",
+    "reference": "P10_TA(2026)0109",
+    "published_date": "28-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0109_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0109_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:22.027052"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Decision",
+    "inter_institutional_code": "2025/2196(IMM)",
+    "reference": "P10_TA(2026)0108",
+    "published_date": "28-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0108_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0108_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:22.045228"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Decision",
+    "inter_institutional_code": "2025/2193(IMM)",
+    "reference": "P10_TA(2026)0107",
+    "published_date": "28-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0107_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0107_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:22.062284"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Decision",
+    "inter_institutional_code": "2025/2172(IMM)",
+    "reference": "P10_TA(2026)0106",
+    "published_date": "28-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0106_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0106_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:22.079860"
+  },
+  {
+    "title": "",
+    "legal_document_type": "Decision",
+    "inter_institutional_code": "2025/2171(IMM)",
+    "reference": "P10_TA(2026)0105",
+    "published_date": "28-04-2026",
+    "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0105_EN.pdf",
+    "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0105_EN.docx",
+    "scraped_at": "2026-05-01,T09:10:22.097000"
+  },
+  {
     "title": "Global Gateway -– past impacts and future orientation",
     "legal_document_type": "Resolution",
     "inter_institutional_code": "2025/2073(INI)",
@@ -7,7 +597,7 @@
     "published_date": "26-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0104_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0104_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:41.057806"
+    "scraped_at": "2026-05-01,T09:10:22.119108"
   },
   {
     "title": "Mobilisation of the European Globalisation Adjustment Fund for Displaced Workers: application EGF/2025/005 AT/KTM - Austria",
@@ -17,7 +607,7 @@
     "published_date": "26-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0103_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0103_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:41.080980"
+    "scraped_at": "2026-05-01,T09:10:26.671001"
   },
   {
     "title": "Mobilisation of the European Globalisation Adjustment Fund for Displaced Workers: application EGF/2025/007 BE/Casa - Belgium",
@@ -27,7 +617,7 @@
     "published_date": "26-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0102_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0102_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:41.102818"
+    "scraped_at": "2026-05-01,T09:10:26.690446"
   },
   {
     "title": "EU-China Agreement: modification of concessions on all the tariff rate quotas included in the EU Schedule CLXXV",
@@ -37,7 +627,7 @@
     "published_date": "26-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0101_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0101_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:41.126568"
+    "scraped_at": "2026-05-01,T09:10:26.710341"
   },
   {
     "title": "EU-Lebanon Agreement for scientific and technological cooperation setting, participation of Lebanon in the Partnership for Research and Innovation in the Mediterranean Area (PRIMA)",
@@ -47,7 +637,7 @@
     "published_date": "26-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0100_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0100_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:41.165357"
+    "scraped_at": "2026-05-01,T09:10:26.729942"
   },
   {
     "title": "United Nations Convention on the International Effects of Judicial Sales of Ships",
@@ -57,7 +647,7 @@
     "published_date": "26-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0099_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0099_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:41.187381"
+    "scraped_at": "2026-05-01,T09:10:26.750946"
   },
   {
     "title": "Simplification of the implementation of harmonised rules on artificial intelligence (Digital Omnibus on AI)",
@@ -67,7 +657,7 @@
     "published_date": "26-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0098_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0098_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:41.208620"
+    "scraped_at": "2026-05-01,T09:10:26.770196"
   },
   {
     "title": "Non-application of customs duties on imports of certain goods",
@@ -77,7 +667,7 @@
     "published_date": "26-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0097_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0097_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:41.229225"
+    "scraped_at": "2026-05-01,T09:10:26.790788"
   },
   {
     "title": "Adjustment of customs duties and opening of tariff quotas for the import of certain goods originating in the United States of America",
@@ -87,7 +677,7 @@
     "published_date": "26-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0096_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0096_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:41.250579"
+    "scraped_at": "2026-05-01,T09:10:26.811646"
   },
   {
     "title": "Amending Regulation (EU) 2021/1232 as regards the extension of its period of application",
@@ -97,7 +687,7 @@
     "published_date": "26-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0095_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0095_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:41.273756"
+    "scraped_at": "2026-05-01,T09:10:26.831587"
   },
   {
     "title": "Combating corruption",
@@ -107,7 +697,7 @@
     "published_date": "26-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0094_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0094_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:45.623471"
+    "scraped_at": "2026-05-01,T09:10:26.851686"
   },
   {
     "title": "Surface water and groundwater pollutants",
@@ -117,7 +707,7 @@
     "published_date": "26-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0093_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0093_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:45.645311"
+    "scraped_at": "2026-05-01,T09:10:31.266732"
   },
   {
     "title": "Early intervention measures, conditions for resolution and funding of resolution action (SRMR3)",
@@ -127,7 +717,7 @@
     "published_date": "26-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0092_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0092_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:45.666000"
+    "scraped_at": "2026-05-01,T09:10:31.286508"
   },
   {
     "title": "Early intervention measures, conditions for resolution and funding of resolution action (BRRD3)",
@@ -137,7 +727,7 @@
     "published_date": "26-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0091_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0091_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:45.686518"
+    "scraped_at": "2026-05-01,T09:10:31.306670"
   },
   {
     "title": "Scope of deposit protection, use of deposit guarantee schemes funds, cross-border cooperation, and transparency (DGSD2)",
@@ -147,7 +737,7 @@
     "published_date": "26-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0090_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0090_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:45.708415"
+    "scraped_at": "2026-05-01,T09:10:31.324938"
   },
   {
     "title": "Request for the waiver of the immunity of Nikos Pappas",
@@ -157,7 +747,7 @@
     "published_date": "26-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0089_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0089_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:45.729933"
+    "scraped_at": "2026-05-01,T09:10:31.342616"
   },
   {
     "title": "Request for the waiver of the immunity of Grzegorz Braun",
@@ -167,7 +757,7 @@
     "published_date": "26-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0088_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0088_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:45.752813"
+    "scraped_at": "2026-05-01,T09:10:31.361059"
   },
   {
     "title": "Request for the waiver of the immunity of Grzegorz Braun",
@@ -177,7 +767,7 @@
     "published_date": "26-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0087_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0087_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:45.773180"
+    "scraped_at": "2026-05-01,T09:10:31.379450"
   },
   {
     "title": "Multilateral negotiations in view of the WTO’s 14th Ministerial Conference in Yaoundé, 26 to 29 March 2026",
@@ -187,7 +777,7 @@
     "published_date": "12-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0086_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0086_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:45.794961"
+    "scraped_at": "2026-05-01,T09:10:31.398703"
   },
   {
     "title": "Package travel and linked travel arrangements: make the protection of travellers more effective and simplify and clarify certain aspects",
@@ -197,7 +787,7 @@
     "published_date": "12-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0085_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0085_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:45.813959"
+    "scraped_at": "2026-05-01,T09:10:31.416457"
   },
   {
     "title": "",
@@ -207,7 +797,7 @@
     "published_date": "12-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0084_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0084_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:50.176505"
+    "scraped_at": "2026-05-01,T09:10:31.433118"
   },
   {
     "title": "Case of Elene Khoshtaria and political prisoners under the Georgian Dream regime",
@@ -217,7 +807,7 @@
     "published_date": "12-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0083_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0083_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:50.200967"
+    "scraped_at": "2026-05-01,T09:10:36.356933"
   },
   {
     "title": "The arbitrary detention of President Mohamed Bazoum by the junta in Niger",
@@ -227,7 +817,7 @@
     "published_date": "12-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0082_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0082_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:50.222618"
+    "scraped_at": "2026-05-01,T09:10:36.376175"
   },
   {
     "title": "Human trafficking and grave human rights violations linked to the recruitment of non-Russian nationals, in particular from Africa, for Russia’s war of aggression in Ukraine",
@@ -237,7 +827,7 @@
     "published_date": "12-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0081_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0081_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:50.243439"
+    "scraped_at": "2026-05-01,T09:10:36.394735"
   },
   {
     "title": "Flagship European defence projects of common interest",
@@ -247,7 +837,7 @@
     "published_date": "11-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0080_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0080_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:50.265108"
+    "scraped_at": "2026-05-01,T09:10:36.413085"
   },
   {
     "title": "Tackling barriers to the single market for defence",
@@ -257,7 +847,7 @@
     "published_date": "11-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0079_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0079_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:50.288828"
+    "scraped_at": "2026-05-01,T09:10:36.431839"
   },
   {
     "title": "Recommendation on enhanced EU-Canada cooperation in the current geopolitical context, including the threats to Canada’s economic stability and sovereignty",
@@ -267,7 +857,7 @@
     "published_date": "11-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0078_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0078_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:50.311031"
+    "scraped_at": "2026-05-01,T09:10:36.450408"
   },
   {
     "title": "EU enlargement strategy",
@@ -277,7 +867,7 @@
     "published_date": "11-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0077_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0077_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:50.331102"
+    "scraped_at": "2026-05-01,T09:10:36.471232"
   },
   {
     "title": "European Semester for economic policy coordination: employment and social priorities for 2026",
@@ -287,7 +877,7 @@
     "published_date": "11-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0076_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0076_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:50.351508"
+    "scraped_at": "2026-05-01,T09:10:36.489478"
   },
   {
     "title": "European Semester for economic policy coordination 2026",
@@ -297,7 +887,7 @@
     "published_date": "11-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0075_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0075_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:50.371471"
+    "scraped_at": "2026-05-01,T09:10:36.507668"
   },
   {
     "title": "Gender pay and pension gap in the EU: state of play, challenges and the way forward, and developing guidelines for the better evaluation and fairer remuneration of work in female-dominated sectors",
@@ -307,7 +897,7 @@
     "published_date": "11-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0074_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0074_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:54.547492"
+    "scraped_at": "2026-05-01,T09:10:36.525765"
   },
   {
     "title": "Mobilisation of the European Globalisation Adjustment Fund for Displaced Workers: application EGF/2025/004 BE/Tupperware - Belgium",
@@ -317,7 +907,7 @@
     "published_date": "11-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0073_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0073_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:54.567237"
+    "scraped_at": "2026-05-01,T09:10:40.791930"
   },
   {
     "title": "EU-Ecuador Agreement: cooperation between Europol and the Ecuadorian authorities competent for combatting serious crime and terrorism",
@@ -327,7 +917,7 @@
     "published_date": "11-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0072_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0072_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:54.585952"
+    "scraped_at": "2026-05-01,T09:10:40.810510"
   },
   {
     "title": "Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law",
@@ -337,7 +927,7 @@
     "published_date": "11-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0071_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0071_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:54.604950"
+    "scraped_at": "2026-05-01,T09:10:40.828770"
   },
   {
     "title": "Amending Regulation (EU) 2021/1232 as regards the extension of its period of application",
@@ -347,7 +937,7 @@
     "published_date": "11-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0070_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0070_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:54.625001"
+    "scraped_at": "2026-05-01,T09:10:40.847879"
   },
   {
     "title": "",
@@ -357,7 +947,7 @@
     "published_date": "11-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0069_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0069_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:54.643830"
+    "scraped_at": "2026-05-01,T09:10:40.864457"
   },
   {
     "title": "Upcoming European Research Area (ERA) Act",
@@ -367,7 +957,7 @@
     "published_date": "10-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0068_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0068_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:54.663189"
+    "scraped_at": "2026-05-01,T09:10:40.884047"
   },
   {
     "title": "Fisheries management approaches for safeguarding sensitive species, tackling invasive species and benefiting local economies",
@@ -377,7 +967,7 @@
     "published_date": "10-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0067_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0067_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:54.680832"
+    "scraped_at": "2026-05-01,T09:10:40.902779"
   },
   {
     "title": "Copyright and generative artificial intelligence – opportunities and challenges",
@@ -387,7 +977,7 @@
     "published_date": "10-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0066_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0066_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:54.699072"
+    "scraped_at": "2026-05-01,T09:10:40.921150"
   },
   {
     "title": "Public access to documents – report 2022 - 2024",
@@ -397,7 +987,7 @@
     "published_date": "10-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0065_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0065_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:54.719513"
+    "scraped_at": "2026-05-01,T09:10:40.940847"
   },
   {
     "title": "Housing crisis in the European Union with the aim of proposing solutions for decent, sustainable and affordable housing",
@@ -407,7 +997,7 @@
     "published_date": "10-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0064_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0064_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:58.948989"
+    "scraped_at": "2026-05-01,T09:10:40.960839"
   },
   {
     "title": "European Union regulatory fitness and subsidiarity and proportionality – report on Better Law-Making covering 2023 and 2024",
@@ -417,7 +1007,7 @@
     "published_date": "10-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0063_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0063_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:58.970297"
+    "scraped_at": "2026-05-01,T09:10:45.573580"
   },
   {
     "title": "Appointment of the European Chief Prosecutor",
@@ -427,7 +1017,7 @@
     "published_date": "10-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0062_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0062_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:58.991903"
+    "scraped_at": "2026-05-01,T09:10:45.592398"
   },
   {
     "title": "Appointment of the Chairperson of the European Banking Authority",
@@ -437,7 +1027,7 @@
     "published_date": "10-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0061_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0061_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:59.012826"
+    "scraped_at": "2026-05-01,T09:10:45.611489"
   },
   {
     "title": "Appointment of the Vice-President of the European Central Bank",
@@ -447,7 +1037,7 @@
     "published_date": "10-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0060_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0060_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:59.031653"
+    "scraped_at": "2026-05-01,T09:10:45.630493"
   },
   {
     "title": "Increased efficiency of the External Action Guarantee",
@@ -457,7 +1047,7 @@
     "published_date": "10-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0059_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0059_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:59.051904"
+    "scraped_at": "2026-05-01,T09:10:45.648445"
   },
   {
     "title": "EU Talent Pool",
@@ -467,7 +1057,7 @@
     "published_date": "10-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0058_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0058_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:59.073706"
+    "scraped_at": "2026-05-01,T09:10:45.666729"
   },
   {
     "title": "Harmonising certain aspects of insolvency law",
@@ -477,7 +1067,7 @@
     "published_date": "10-03-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0057_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0057_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:59.092372"
+    "scraped_at": "2026-05-01,T09:10:45.687394"
   },
   {
     "title": "Four years of Russia's war of aggression against Ukraine and European contributions to a just peace and sustained security for Ukraine",
@@ -487,7 +1077,7 @@
     "published_date": "24-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0056_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0056_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:59.115057"
+    "scraped_at": "2026-05-01,T09:10:45.706521"
   },
   {
     "title": "Accession of the Republic of Albania to the Convention of 2 July 2019 on the Recognition and Enforcement of Foreign Judgments in Civil or Commercial Matters",
@@ -497,7 +1087,7 @@
     "published_date": "12-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0055_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0055_EN.docx",
-    "scraped_at": "2026-04-24,T09:11:59.134079"
+    "scraped_at": "2026-05-01,T09:10:45.725209"
   },
   {
     "title": "Accession of Montenegro to the Convention of 2 July 2019 on the Recognition and Enforcement of Foreign Judgments in Civil or Commercial Matters",
@@ -507,7 +1097,7 @@
     "published_date": "12-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0054_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0054_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:03.313151"
+    "scraped_at": "2026-05-01,T09:10:45.743488"
   },
   {
     "title": "Situation in Northeast Syria, the violence against civilians and the need to maintain a sustainable ceasefire",
@@ -517,7 +1107,7 @@
     "published_date": "12-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0053_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0053_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:03.331767"
+    "scraped_at": "2026-05-01,T09:10:50.170666"
   },
   {
     "title": "World Cancer Day",
@@ -527,7 +1117,7 @@
     "published_date": "12-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0052_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0052_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:03.350745"
+    "scraped_at": "2026-05-01,T09:10:50.190103"
   },
   {
     "title": "Recommendation to the Council on EU priorities for the 70th session of the UN Commission on the Status of Women",
@@ -537,7 +1127,7 @@
     "published_date": "12-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0051_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0051_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:03.368979"
+    "scraped_at": "2026-05-01,T09:10:50.209417"
   },
   {
     "title": "Addressing subcontracting chains and the role of intermediaries in order to protect workers’ rights",
@@ -547,7 +1137,7 @@
     "published_date": "12-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0050_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0050_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:03.386474"
+    "scraped_at": "2026-05-01,T09:10:50.227970"
   },
   {
     "title": "Developing a new EU anti-poverty strategy",
@@ -557,7 +1147,7 @@
     "published_date": "12-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0049_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0049_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:03.407391"
+    "scraped_at": "2026-05-01,T09:10:50.248205"
   },
   {
     "title": "Cooperation among enforcement authorities regarding unfair trading practices in the agri-food supply chain",
@@ -567,7 +1157,7 @@
     "published_date": "12-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0048_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0048_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:03.426205"
+    "scraped_at": "2026-05-01,T09:10:50.267060"
   },
   {
     "title": "Targeted expulsions of foreign journalists and foreign Christians in Türkiye under national security pretexts",
@@ -577,7 +1167,7 @@
     "published_date": "12-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0047_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0047_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:03.445765"
+    "scraped_at": "2026-05-01,T09:10:50.292244"
   },
   {
     "title": "Systemic oppression, inhumane conditions and arbitrary detentions by the regime in Iran",
@@ -587,7 +1177,7 @@
     "published_date": "12-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0046_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0046_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:03.465274"
+    "scraped_at": "2026-05-01,T09:10:50.321068"
   },
   {
     "title": "Post-election situation in Uganda and threats against opposition leader Bobi Wine",
@@ -597,7 +1187,7 @@
     "published_date": "12-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0045_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0045_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:03.484623"
+    "scraped_at": "2026-05-01,T09:10:50.353193"
   },
   {
     "title": "Genetically modified cotton T304-40",
@@ -607,7 +1197,7 @@
     "published_date": "11-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0044_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0044_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:07.969255"
+    "scraped_at": "2026-05-01,T09:10:50.371094"
   },
   {
     "title": "Genetically modified cotton GHB614 × LLCotton25",
@@ -617,7 +1207,7 @@
     "published_date": "11-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0043_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0043_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:07.988942"
+    "scraped_at": "2026-05-01,T09:10:54.994180"
   },
   {
     "title": "Genetically modified maize T25 (ACS-ZMØØ3-2)",
@@ -627,7 +1217,7 @@
     "published_date": "11-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0042_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0042_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:08.008597"
+    "scraped_at": "2026-05-01,T09:10:55.014001"
   },
   {
     "title": "Genetically modified soybean DBN-09004-6",
@@ -637,7 +1227,7 @@
     "published_date": "11-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0041_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0041_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:08.027752"
+    "scraped_at": "2026-05-01,T09:10:55.031690"
   },
   {
     "title": "EU strategic defence and security partnerships",
@@ -647,7 +1237,7 @@
     "published_date": "11-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0040_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0040_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:08.046458"
+    "scraped_at": "2026-05-01,T09:10:55.049747"
   },
   {
     "title": "Interim report in view of the consent procedure on the Agreement establishing an association between the EU and the Principality of Andorra and the Republic of San Marino",
@@ -657,7 +1247,7 @@
     "published_date": "11-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0039_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0039_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:08.065184"
+    "scraped_at": "2026-05-01,T09:10:55.068304"
   },
   {
     "title": "Mobilisation of the European Globalisation Adjustment Fund: application EGF/2025/006 BE/ Audi - Belgium",
@@ -667,7 +1257,7 @@
     "published_date": "11-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0038_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0038_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:08.084497"
+    "scraped_at": "2026-05-01,T09:10:55.087574"
   },
   {
     "title": "Amending the multiannual financial framework for the years 2021 to 2027",
@@ -677,7 +1267,7 @@
     "published_date": "11-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0037_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0037_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:08.102108"
+    "scraped_at": "2026-05-01,T09:10:55.105712"
   },
   {
     "title": "Amending Regulation (EU) 2024/792 establishing the Ukraine Facility",
@@ -687,7 +1277,7 @@
     "published_date": "11-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0036_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0036_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:08.120881"
+    "scraped_at": "2026-05-01,T09:10:55.123950"
   },
   {
     "title": "Regulation implementing enhanced cooperation on the establishment of the Ukraine Support Loan for 2026 and 2027",
@@ -697,7 +1287,7 @@
     "published_date": "11-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0035_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0035_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:08.138559"
+    "scraped_at": "2026-05-01,T09:10:55.143080"
   },
   {
     "title": "European Central Bank – annual report 2025",
@@ -707,7 +1297,7 @@
     "published_date": "10-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0034_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0034_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:12.436437"
+    "scraped_at": "2026-05-01,T09:10:55.163157"
   },
   {
     "title": "Appointment of the Vice-Chair of the Supervisory Board of the European Central Bank",
@@ -717,17 +1307,17 @@
     "published_date": "10-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0033_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0033_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:12.455621"
+    "scraped_at": "2026-05-01,T09:10:59.553642"
   },
   {
-    "title": "",
+    "title": "European Union designs (codification)",
     "legal_document_type": "Legislative resolution",
     "inter_institutional_code": "",
     "reference": "P10_TA(2026)0032",
     "published_date": "10-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0032_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0032_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:12.473880"
+    "scraped_at": "2026-05-01,T09:10:59.573270"
   },
   {
     "title": "Framework for achieving climate neutrality",
@@ -737,7 +1327,7 @@
     "published_date": "10-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0031_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0031_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:12.492258"
+    "scraped_at": "2026-05-01,T09:10:59.591985"
   },
   {
     "title": "Bilateral safeguard clause of the EU-Mercosur Partnership Agreement and the EU-Mercosur Interim Trade Agreement for agricultural products",
@@ -747,7 +1337,7 @@
     "published_date": "10-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0030_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0030_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:12.510206"
+    "scraped_at": "2026-05-01,T09:10:59.612203"
   },
   {
     "title": "Amending the Measuring Instruments Directive",
@@ -757,7 +1347,7 @@
     "published_date": "10-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0029_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0029_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:12.528865"
+    "scraped_at": "2026-05-01,T09:10:59.632250"
   },
   {
     "title": "Amending Regulations on agricultural products as regards market rules and sectoral support measures in the wine sector and for aromatised wine products",
@@ -767,7 +1357,7 @@
     "published_date": "10-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0028_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0028_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:12.547295"
+    "scraped_at": "2026-05-01,T09:10:59.652392"
   },
   {
     "title": "Request for the waiver of the immunity of Petr Bystron",
@@ -777,7 +1367,7 @@
     "published_date": "10-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0027_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0027_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:12.564745"
+    "scraped_at": "2026-05-01,T09:10:59.672664"
   },
   {
     "title": "Application of the ‘safe third country’ concept",
@@ -787,7 +1377,7 @@
     "published_date": "10-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0026_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0026_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:12.581965"
+    "scraped_at": "2026-05-01,T09:10:59.691024"
   },
   {
     "title": "Establishment of a list of safe countries of origin at Union level",
@@ -797,7 +1387,7 @@
     "published_date": "10-02-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0025_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0025_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:12.601282"
+    "scraped_at": "2026-05-01,T09:10:59.709528"
   },
   {
     "title": "Attempted takeover of Lithuania’s public broadcaster and the threat to democracy in Lithuania",
@@ -807,7 +1397,7 @@
     "published_date": "22-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0024_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0024_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:16.981238"
+    "scraped_at": "2026-05-01,T09:10:59.728440"
   },
   {
     "title": "Brutal repression against protesters in Iran",
@@ -817,7 +1407,7 @@
     "published_date": "22-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0023_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0023_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:17.001238"
+    "scraped_at": "2026-05-01,T09:11:03.941588"
   },
   {
     "title": "European technological sovereignty and digital infrastructure",
@@ -827,7 +1417,7 @@
     "published_date": "22-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0022_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0022_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:17.020742"
+    "scraped_at": "2026-05-01,T09:11:03.963091"
   },
   {
     "title": "Choice of performance indicators for audit and budgetary control in the context of financing measures to support the implementation of future European competitiveness",
@@ -837,7 +1427,7 @@
     "published_date": "22-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0021_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0021_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:17.038873"
+    "scraped_at": "2026-05-01,T09:11:03.984873"
   },
   {
     "title": "Drones and new systems of warfare – the EU’s need to adapt to be fit for today’s security challenges",
@@ -847,7 +1437,7 @@
     "published_date": "22-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0020_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0020_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:17.057092"
+    "scraped_at": "2026-05-01,T09:11:04.007357"
   },
   {
     "title": "Detergents and surfactants",
@@ -857,7 +1447,7 @@
     "published_date": "22-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0019_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0019_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:17.076599"
+    "scraped_at": "2026-05-01,T09:11:04.029429"
   },
   {
     "title": "Conviction and imminent sentencing of Jimmy Lai in Hong Kong",
@@ -867,7 +1457,7 @@
     "published_date": "22-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0018_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0018_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:17.094616"
+    "scraped_at": "2026-05-01,T09:11:04.052953"
   },
   {
     "title": "Case of Joseph Figueira Martin in the Central African Republic",
@@ -877,7 +1467,7 @@
     "published_date": "22-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0017_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0017_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:17.114153"
+    "scraped_at": "2026-05-01,T09:11:04.075678"
   },
   {
     "title": "Presidential elections in Honduras, the non-recognition of the outcome by the incumbent administration and the attacks on opposition members of the National Assembly",
@@ -887,7 +1477,7 @@
     "published_date": "22-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0016_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0016_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:17.135938"
+    "scraped_at": "2026-05-01,T09:11:04.096362"
   },
   {
     "title": "Addressing impunity through EU sanctions, including the EU Global Human Rights sanctions regime (so-called ‘EU Magnitsky Act’)",
@@ -897,7 +1487,7 @@
     "published_date": "21-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0015_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0015_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:17.154931"
+    "scraped_at": "2026-05-01,T09:11:04.117515"
   },
   {
     "title": "Human rights and democracy in the world and the European Union’s policy on the matter – annual report 2025",
@@ -907,7 +1497,7 @@
     "published_date": "21-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0014_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0014_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:21.967949"
+    "scraped_at": "2026-05-01,T09:11:04.140204"
   },
   {
     "title": "Implementation of the common security and defence policy – annual report 2025",
@@ -917,7 +1507,7 @@
     "published_date": "21-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0013_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0013_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:21.986469"
+    "scraped_at": "2026-05-01,T09:11:08.625848"
   },
   {
     "title": "Implementation of the common foreign and security policy – annual report 2025",
@@ -927,7 +1517,7 @@
     "published_date": "21-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0012_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0012_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:22.005378"
+    "scraped_at": "2026-05-01,T09:11:08.644418"
   },
   {
     "title": "EU-Bosnia and Herzegovina Agreement on operational activities carried out by the European Border and Coast Guard Agency in Bosnia and Herzegovina",
@@ -937,7 +1527,7 @@
     "published_date": "21-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0011_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0011_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:22.023810"
+    "scraped_at": "2026-05-01,T09:11:08.663333"
   },
   {
     "title": "Enhanced cooperation on the establishment of a Loan for Ukraine",
@@ -947,7 +1537,7 @@
     "published_date": "21-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0010_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0010_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:22.041991"
+    "scraped_at": "2026-05-01,T09:11:08.681908"
   },
   {
     "title": "Air passenger rights",
@@ -957,7 +1547,7 @@
     "published_date": "21-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0009_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0009_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:22.061115"
+    "scraped_at": "2026-05-01,T09:11:08.700645"
   },
   {
     "title": "Request for opinion from the Court of Justice on the compatibility with the Treaties of the proposed EU-Mercosur Partnership Agreement (EMPA) and Interim Trade Agreement (ITA)",
@@ -967,7 +1557,7 @@
     "published_date": "21-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0008_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0008_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:22.079461"
+    "scraped_at": "2026-05-01,T09:11:08.721765"
   },
   {
     "title": "Murder of Mehdi Kessaci – urgent need for ambitious European action against drug trafficking",
@@ -977,7 +1567,7 @@
     "published_date": "20-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0007_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0007_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:22.100765"
+    "scraped_at": "2026-05-01,T09:11:08.741422"
   },
   {
     "title": "Reform of the European Electoral Act – hurdles to ratification and implementation in the Member States",
@@ -987,7 +1577,7 @@
     "published_date": "20-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0006_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0006_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:22.120620"
+    "scraped_at": "2026-05-01,T09:11:08.760861"
   },
   {
     "title": "Humanitarian aid in a time of polycrisis – reaffirming our principles for a more effective and ambitious response to humanitarian crises",
@@ -997,7 +1587,7 @@
     "published_date": "20-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0005_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0005_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:22.139554"
+    "scraped_at": "2026-05-01,T09:11:08.780284"
   },
   {
     "title": "Safeguarding and promoting financial stability amid economic uncertainties",
@@ -1007,7 +1597,7 @@
     "published_date": "20-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0004_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0004_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:26.531822"
+    "scraped_at": "2026-05-01,T09:11:08.800387"
   },
   {
     "title": "Just transition directive in the world of work: ensuring the creation of jobs and revitalising local economies",
@@ -1017,7 +1607,7 @@
     "published_date": "20-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0003_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0003_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:26.551730"
+    "scraped_at": "2026-05-01,T09:11:14.566279"
   },
   {
     "title": "The 28th Regime: a new legal framework for innovative companies",
@@ -1027,7 +1617,7 @@
     "published_date": "20-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0002_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0002_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:26.570992"
+    "scraped_at": "2026-05-01,T09:11:14.585273"
   },
   {
     "title": "Framework for strengthening the availability and security of supply of critical medicinal products as well as the availability of, and accessibility of, medicinal products of common interest",
@@ -1037,7 +1627,7 @@
     "published_date": "20-01-2026",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0001_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2026-0001_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:26.590196"
+    "scraped_at": "2026-05-01,T09:11:14.604210"
   },
   {
     "title": "Continuous Belarusian hybrid attacks against Lithuania",
@@ -1047,7 +1637,7 @@
     "published_date": "18-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0345_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0345_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:26.609343"
+    "scraped_at": "2026-05-01,T09:11:14.622586"
   },
   {
     "title": "Decarbonisation and modernisation of EU fisheries, and the development and deployment of fishing gear",
@@ -1057,7 +1647,7 @@
     "published_date": "18-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0344_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0344_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:26.628831"
+    "scraped_at": "2026-05-01,T09:11:14.641867"
   },
   {
     "title": "Implementation of the rule of law conditionality regime",
@@ -1067,7 +1657,7 @@
     "published_date": "18-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0343_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0343_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:26.646515"
+    "scraped_at": "2026-05-01,T09:11:14.662253"
   },
   {
     "title": "Appointment of a Member of the Executive Board of the Anti-Money Laundering Authority (AMLA)",
@@ -1077,7 +1667,7 @@
     "published_date": "18-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0342_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0342_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:26.666983"
+    "scraped_at": "2026-05-01,T09:11:14.682956"
   },
   {
     "title": "Grave political situation in Guinea-Bissau after the coup of 26 November",
@@ -1087,7 +1677,7 @@
     "published_date": "18-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0341_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0341_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:26.686568"
+    "scraped_at": "2026-05-01,T09:11:14.702603"
   },
   {
     "title": "Mass kidnapping of children in Nigeria, including from St Mary's Catholic school in Papiri",
@@ -1097,7 +1687,7 @@
     "published_date": "18-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0340_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0340_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:26.708016"
+    "scraped_at": "2026-05-01,T09:11:14.721516"
   },
   {
     "title": "Arbitrary arrest and sentencing of academics Bahruz Samadov and Igbal Abilov in Azerbaijan",
@@ -1107,7 +1697,7 @@
     "published_date": "18-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0339_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0339_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:31.205444"
+    "scraped_at": "2026-05-01,T09:11:14.740661"
   },
   {
     "title": "European Citizens’ Initiative ‘My voice, my choice: for safe and accessible abortion’",
@@ -1117,7 +1707,7 @@
     "published_date": "17-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0338_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0338_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:31.224448"
+    "scraped_at": "2026-05-01,T09:11:19.176165"
   },
   {
     "title": "Digitalisation, artificial intelligence and algorithmic management in the workplace – shaping the future of work",
@@ -1127,7 +1717,7 @@
     "published_date": "17-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0337_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0337_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:31.244229"
+    "scraped_at": "2026-05-01,T09:11:19.195122"
   },
   {
     "title": "European Defence Readiness 2030: assessment of needs",
@@ -1137,7 +1727,7 @@
     "published_date": "17-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0336_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0336_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:31.263510"
+    "scraped_at": "2026-05-01,T09:11:19.214035"
   },
   {
     "title": "Military mobility",
@@ -1147,7 +1737,7 @@
     "published_date": "17-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0335_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0335_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:31.289027"
+    "scraped_at": "2026-05-01,T09:11:19.232718"
   },
   {
     "title": "Appointment of the Executive Director of the European Insurance and Occupational Pensions Authority (EIOPA)",
@@ -1157,7 +1747,7 @@
     "published_date": "17-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0334_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0334_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:31.308504"
+    "scraped_at": "2026-05-01,T09:11:19.251446"
   },
   {
     "title": "European High Performance Computing Joint Undertaking (EuroHPC)",
@@ -1167,7 +1757,7 @@
     "published_date": "17-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0333_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0333_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:31.326392"
+    "scraped_at": "2026-05-01,T09:11:19.271262"
   },
   {
     "title": "EU/Jordan Agreement for scientific and technological cooperation: terms and conditions for the participation of Jordan in the Partnership for Research and Innovation in the Mediterranean Area (PRIMA)",
@@ -1177,7 +1767,7 @@
     "published_date": "17-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0332_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0332_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:31.344618"
+    "scraped_at": "2026-05-01,T09:11:19.290668"
   },
   {
     "title": "Deforestation Regulation: certain obligations of operators and traders",
@@ -1187,7 +1777,7 @@
     "published_date": "17-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0331_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0331_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:31.364588"
+    "scraped_at": "2026-05-01,T09:11:19.325418"
   },
   {
     "title": "Phasing out Russian natural gas imports and improving monitoring of potential energy dependencies",
@@ -1197,7 +1787,7 @@
     "published_date": "17-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0330_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0330_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:31.383867"
+    "scraped_at": "2026-05-01,T09:11:19.343372"
   },
   {
     "title": "Non-objection to a delegated act: CBAM: conditions for granting accreditation",
@@ -1207,7 +1797,7 @@
     "published_date": "17-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0329_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0329_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:36.228371"
+    "scraped_at": "2026-05-01,T09:11:19.361138"
   },
   {
     "title": "Genetically modified sugar beet KWS20-1",
@@ -1217,7 +1807,7 @@
     "published_date": "16-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0328_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0328_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:36.246797"
+    "scraped_at": "2026-05-01,T09:11:24.102244"
   },
   {
     "title": "Genetically modified maize NK603",
@@ -1227,7 +1817,7 @@
     "published_date": "16-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0327_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0327_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:36.264235"
+    "scraped_at": "2026-05-01,T09:11:24.121752"
   },
   {
     "title": "Relations between the EU and Saudi Arabia",
@@ -1237,7 +1827,7 @@
     "published_date": "16-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0326_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0326_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:36.281836"
+    "scraped_at": "2026-05-01,T09:11:24.139740"
   },
   {
     "title": "Mobilisation of the European Globalisation Adjustment Fund for Displaced Workers following an application from Sweden – EGF/2025/003 SE/Northvolt",
@@ -1247,7 +1837,7 @@
     "published_date": "16-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0325_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0325_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:36.299832"
+    "scraped_at": "2026-05-01,T09:11:24.159312"
   },
   {
     "title": "Certain corporate sustainability reporting and due diligence requirements",
@@ -1257,7 +1847,7 @@
     "published_date": "16-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0324_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0324_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:36.320434"
+    "scraped_at": "2026-05-01,T09:11:24.177745"
   },
   {
     "title": "Brexit Adjustment Reserve",
@@ -1267,7 +1857,7 @@
     "published_date": "16-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0323_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0323_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:36.339146"
+    "scraped_at": "2026-05-01,T09:11:24.195908"
   },
   {
     "title": "Providing macro-financial assistance to Jordan",
@@ -1277,7 +1867,7 @@
     "published_date": "16-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0322_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0322_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:36.357361"
+    "scraped_at": "2026-05-01,T09:11:24.215635"
   },
   {
     "title": "Amending certain CAP Regulations as regards the conditionality system, types of intervention in the form of direct payment, types of intervention in certain sectors and rural development and annual performance reports, data and interoperability governance, suspensions of payments annual performance clearance and controls and penalties",
@@ -1287,7 +1877,7 @@
     "published_date": "16-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0321_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0321_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:36.375162"
+    "scraped_at": "2026-05-01,T09:11:24.234125"
   },
   {
     "title": "Incentivising defence-related investments in the EU budget to implement the ReArm Europe Plan",
@@ -1297,7 +1887,7 @@
     "published_date": "16-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0320_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0320_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:36.395198"
+    "scraped_at": "2026-05-01,T09:11:24.252132"
   },
   {
     "title": "Compulsory licensing of patents in crisis situations",
@@ -1307,7 +1897,7 @@
     "published_date": "16-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0319_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0319_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:40.546670"
+    "scraped_at": "2026-05-01,T09:11:24.269666"
   },
   {
     "title": "Amending the Directive on alternative dispute resolution for consumer disputes",
@@ -1317,7 +1907,7 @@
     "published_date": "16-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0318_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0318_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:40.566832"
+    "scraped_at": "2026-05-01,T09:11:28.498702"
   },
   {
     "title": "Request for the waiver of the immunity of Alessandra Moretti",
@@ -1327,7 +1917,7 @@
     "published_date": "16-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0317_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0317_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:40.584174"
+    "scraped_at": "2026-05-01,T09:11:28.518589"
   },
   {
     "title": "Request for the waiver of the immunity of Elisabetta Gualmini",
@@ -1337,7 +1927,7 @@
     "published_date": "16-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0316_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0316_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:40.601156"
+    "scraped_at": "2026-05-01,T09:11:28.536977"
   },
   {
     "title": "Bilateral safeguard clause of the EU-Mercosur Partnership Agreement and the EU-Mercosur Interim Trade Agreement for agricultural products",
@@ -1347,7 +1937,7 @@
     "published_date": "16-12-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0315_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0315_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:40.618779"
+    "scraped_at": "2026-05-01,T09:11:28.555896"
   },
   {
     "title": "Financing of the 2025 action plan for Tanzania",
@@ -1357,7 +1947,7 @@
     "published_date": "27-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0314_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0314_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:40.637408"
+    "scraped_at": "2026-05-01,T09:11:28.575594"
   },
   {
     "title": "Organisational mismanagement of the European personnel selection office (EPSO) competitions",
@@ -1367,7 +1957,7 @@
     "published_date": "27-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0313_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0313_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:40.655800"
+    "scraped_at": "2026-05-01,T09:11:28.595720"
   },
   {
     "title": "EU position on the proposed plan and EU engagement towards a just and lasting peace for Ukraine",
@@ -1377,7 +1967,7 @@
     "published_date": "27-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0312_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0312_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:40.673583"
+    "scraped_at": "2026-05-01,T09:11:28.613832"
   },
   {
     "title": "Political situation in Myanmar including the humanitarian crisis of the Rohingya",
@@ -1387,7 +1977,7 @@
     "published_date": "27-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0311_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0311_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:40.691909"
+    "scraped_at": "2026-05-01,T09:11:28.632748"
   },
   {
     "title": "Escalation of the war and the humanitarian catastrophe in Sudan",
@@ -1397,7 +1987,7 @@
     "published_date": "27-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0310_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0310_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:40.710424"
+    "scraped_at": "2026-05-01,T09:11:28.651776"
   },
   {
     "title": "Application of the Treaty provisions related to the principles of subsidiarity and proportionality and the role of national parliaments in the EU legislative process",
@@ -1407,7 +1997,7 @@
     "published_date": "27-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0309_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0309_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:44.994068"
+    "scraped_at": "2026-05-01,T09:11:28.672743"
   },
   {
     "title": "EU strategy for the rights of persons with disabilities post-2024",
@@ -1417,7 +2007,7 @@
     "published_date": "27-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0308_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0308_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:45.013443"
+    "scraped_at": "2026-05-01,T09:11:33.179488"
   },
   {
     "title": "Implementation of the EU-UK Trade and Cooperation Agreement",
@@ -1427,7 +2017,7 @@
     "published_date": "27-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0307_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0307_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:45.031487"
+    "scraped_at": "2026-05-01,T09:11:33.198630"
   },
   {
     "title": "Harmonised requirements in the internal market on transparency of third countries interest representation",
@@ -1437,7 +2027,7 @@
     "published_date": "27-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0306_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0306_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:45.049524"
+    "scraped_at": "2026-05-01,T09:11:33.216632"
   },
   {
     "title": "Amending Regulations on the Internal Market Information System (IMI) and on the Single digital gateway as regards certain harmonisation requirements on transparency",
@@ -1447,7 +2037,7 @@
     "published_date": "27-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0305_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0305_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:45.068144"
+    "scraped_at": "2026-05-01,T09:11:33.234709"
   },
   {
     "title": "Rule of law and human rights situation in Tunisia, particularly the case of Sonia Dahmani",
@@ -1457,7 +2047,7 @@
     "published_date": "27-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0304_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0304_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:45.087181"
+    "scraped_at": "2026-05-01,T09:11:33.252690"
   },
   {
     "title": "Escalating repression of the Baha'is in Iran",
@@ -1467,7 +2057,7 @@
     "published_date": "27-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0303_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0303_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:45.106471"
+    "scraped_at": "2026-05-01,T09:11:33.270965"
   },
   {
     "title": "Post-election killings and the deteriorating human rights situation in Tanzania, including the case of imprisoned opposition leader Tundu Lissu",
@@ -1477,7 +2067,7 @@
     "published_date": "27-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0302_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0302_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:45.125301"
+    "scraped_at": "2026-05-01,T09:11:33.288974"
   },
   {
     "title": "Protecting EU consumers against the practices of certain e-commerce platforms: the case of child-like sex dolls, weapons and other illegal products and material",
@@ -1487,7 +2077,7 @@
     "published_date": "26-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0301_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0301_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:45.143374"
+    "scraped_at": "2026-05-01,T09:11:33.306750"
   },
   {
     "title": "Access to finance for SMEs and scale-ups",
@@ -1497,7 +2087,7 @@
     "published_date": "26-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0300_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0300_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:45.162862"
+    "scraped_at": "2026-05-01,T09:11:33.324875"
   },
   {
     "title": "Protection of minors online",
@@ -1507,7 +2097,7 @@
     "published_date": "26-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0299_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0299_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:49.329915"
+    "scraped_at": "2026-05-01,T09:11:33.342803"
   },
   {
     "title": "EU’s diplomatic strategy and geopolitical cooperation in the Arctic",
@@ -1517,7 +2107,7 @@
     "published_date": "26-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0298_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0298_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:49.350607"
+    "scraped_at": "2026-05-01,T09:11:37.519728"
   },
   {
     "title": "Collection of statistical information by the European Central Bank",
@@ -1527,7 +2117,7 @@
     "published_date": "26-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0297_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0297_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:49.368427"
+    "scraped_at": "2026-05-01,T09:11:37.538353"
   },
   {
     "title": "Increasing the efficiency of the EU guarantee under the InvestEU Regulation and simplifying reporting requirements",
@@ -1537,7 +2127,7 @@
     "published_date": "26-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0296_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0296_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:49.388782"
+    "scraped_at": "2026-05-01,T09:11:37.560010"
   },
   {
     "title": "Deforestation Regulation: certain obligations of operators and traders",
@@ -1547,7 +2137,7 @@
     "published_date": "26-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0295_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0295_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:49.407724"
+    "scraped_at": "2026-05-01,T09:11:37.579929"
   },
   {
     "title": "2026 budgetary procedure: joint text",
@@ -1557,7 +2147,7 @@
     "published_date": "26-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0294_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0294_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:49.426868"
+    "scraped_at": "2026-05-01,T09:11:37.598264"
   },
   {
     "title": "Draft amending budget No 3/2025: adjustment in payment appropriations, update of revenues and other technical updates",
@@ -1567,7 +2157,7 @@
     "published_date": "26-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0293_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0293_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:49.445903"
+    "scraped_at": "2026-05-01,T09:11:37.616711"
   },
   {
     "title": "Genetically modified maize MON 87427",
@@ -1577,7 +2167,7 @@
     "published_date": "25-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0292_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0292_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:49.462909"
+    "scraped_at": "2026-05-01,T09:11:37.635422"
   },
   {
     "title": "Genetically modified soybean MON 87708",
@@ -1587,7 +2177,7 @@
     "published_date": "25-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0291_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0291_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:49.482692"
+    "scraped_at": "2026-05-01,T09:11:37.653964"
   },
   {
     "title": "Genetically modified oilseed rape MON 88302",
@@ -1597,7 +2187,7 @@
     "published_date": "25-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0290_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0290_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:49.501111"
+    "scraped_at": "2026-05-01,T09:11:37.671768"
   },
   {
     "title": "Genetically modified cotton MON 88913",
@@ -1607,7 +2197,7 @@
     "published_date": "25-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0289_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0289_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:54.080781"
+    "scraped_at": "2026-05-01,T09:11:37.689810"
   },
   {
     "title": "Genetically modified maize DAS1131",
@@ -1617,7 +2207,7 @@
     "published_date": "25-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0288_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0288_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:54.097986"
+    "scraped_at": "2026-05-01,T09:11:42.324179"
   },
   {
     "title": "2024 budget – assessing the implementation of the gender mainstreaming methodology in the EU budget",
@@ -1627,7 +2217,7 @@
     "published_date": "25-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0287_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0287_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:54.115855"
+    "scraped_at": "2026-05-01,T09:11:42.342936"
   },
   {
     "title": "Impact of artificial intelligence on the financial sector",
@@ -1637,7 +2227,7 @@
     "published_date": "25-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0286_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0286_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:54.134876"
+    "scraped_at": "2026-05-01,T09:11:42.360990"
   },
   {
     "title": "Institutional aspects of the Report on the future of European Competitiveness (Draghi Report)",
@@ -1647,7 +2237,7 @@
     "published_date": "25-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0285_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0285_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:54.153004"
+    "scraped_at": "2026-05-01,T09:11:42.379260"
   },
   {
     "title": "Ensuring faster registration and uptake of biological control agents",
@@ -1657,7 +2247,7 @@
     "published_date": "25-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0284_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0284_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:54.171121"
+    "scraped_at": "2026-05-01,T09:11:42.397574"
   },
   {
     "title": "Existence of a clear risk of a serious breach by Hungary of the values on which the Union is founded",
@@ -1667,7 +2257,7 @@
     "published_date": "25-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0283_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0283_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:54.189898"
+    "scraped_at": "2026-05-01,T09:11:42.416634"
   },
   {
     "title": "Partial renewal of Members of the Court of Auditors - Daniel Caspary",
@@ -1677,7 +2267,7 @@
     "published_date": "25-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0282_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0282_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:54.207820"
+    "scraped_at": "2026-05-01,T09:11:42.438720"
   },
   {
     "title": "European Defence Industry Programme and framework of measures to ensure the timely availability and supply of defence products (‘EDIP’)",
@@ -1687,7 +2277,7 @@
     "published_date": "25-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0281_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0281_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:54.225205"
+    "scraped_at": "2026-05-01,T09:11:42.456752"
   },
   {
     "title": "Enhancing police cooperation in relation to the prevention, detection and investigation of migrant smuggling and trafficking in human beings; enhancing Europol’s support to preventing and combating such crimes",
@@ -1697,7 +2287,7 @@
     "published_date": "25-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0280_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0280_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:54.242789"
+    "scraped_at": "2026-05-01,T09:11:42.475154"
   },
   {
     "title": "Safety of toys and repealing Directive 2009/48/EC",
@@ -1707,7 +2297,7 @@
     "published_date": "25-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0279_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0279_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:58.407417"
+    "scraped_at": "2026-05-01,T09:11:42.492946"
   },
   {
     "title": "Gender Equality Strategy 2025",
@@ -1717,7 +2307,7 @@
     "published_date": "13-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0278_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0278_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:58.426055"
+    "scraped_at": "2026-05-01,T09:11:46.758155"
   },
   {
     "title": "Partial renewal of Members of the Court of Auditors - Pierre Moscovici",
@@ -1727,7 +2317,7 @@
     "published_date": "13-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0277_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0277_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:58.445208"
+    "scraped_at": "2026-05-01,T09:11:46.777029"
   },
   {
     "title": "Partial renewal of Members of the Court of Auditors - Nikolaos Milionis",
@@ -1737,7 +2327,7 @@
     "published_date": "13-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0276_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0276_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:58.463289"
+    "scraped_at": "2026-05-01,T09:11:46.794894"
   },
   {
     "title": "Appointment of Maria Berger to the panel set up under Article 255 TFEU",
@@ -1747,7 +2337,7 @@
     "published_date": "13-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0275_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0275_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:58.481132"
+    "scraped_at": "2026-05-01,T09:11:46.813148"
   },
   {
     "title": "Mobilisation of the European Union Solidarity Fund: assistance to Spain and France in relation to natural disasters in 2024 and 2025",
@@ -1757,7 +2347,7 @@
     "published_date": "13-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0274_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0274_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:58.500856"
+    "scraped_at": "2026-05-01,T09:11:46.830870"
   },
   {
     "title": "EU-Switzerland agreement on the automatic exchange of financial account information: Amending Protocol",
@@ -1767,7 +2357,7 @@
     "published_date": "13-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0273_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0273_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:58.519633"
+    "scraped_at": "2026-05-01,T09:11:46.848827"
   },
   {
     "title": "EU-Liechtenstein agreement on the automatic exchange of financial account information: Amending Protocol",
@@ -1777,7 +2367,7 @@
     "published_date": "13-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0272_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0272_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:58.537517"
+    "scraped_at": "2026-05-01,T09:11:46.867326"
   },
   {
     "title": "EU-San Marino agreement on the automatic exchange of financial account information: Amending Protocol",
@@ -1787,7 +2377,7 @@
     "published_date": "13-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0271_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0271_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:58.555779"
+    "scraped_at": "2026-05-01,T09:11:46.885150"
   },
   {
     "title": "EU-Monaco agreement on the automatic exchange of financial account information: Amending Protocol",
@@ -1797,7 +2387,7 @@
     "published_date": "13-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0270_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0270_EN.docx",
-    "scraped_at": "2026-04-24,T09:12:58.573314"
+    "scraped_at": "2026-05-01,T09:11:46.903938"
   },
   {
     "title": "EU-Andorra agreement on the automatic exchange of financial account information: Amending Protocol",
@@ -1807,7 +2397,7 @@
     "published_date": "13-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0269_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0269_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:02.719027"
+    "scraped_at": "2026-05-01,T09:11:46.922665"
   },
   {
     "title": "Business in Europe: Framework for Income Taxation (BEFIT)",
@@ -1817,7 +2407,7 @@
     "published_date": "13-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0268_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0268_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:02.737157"
+    "scraped_at": "2026-05-01,T09:11:51.450224"
   },
   {
     "title": "Digital Trade Agreement between the European Union and the Republic of Singapore (Resolution)",
@@ -1827,7 +2417,7 @@
     "published_date": "13-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0267_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0267_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:02.755822"
+    "scraped_at": "2026-05-01,T09:11:51.468131"
   },
   {
     "title": "Digital Trade Agreement between the European Union and the Republic of Singapore",
@@ -1837,7 +2427,7 @@
     "published_date": "13-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0266_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0266_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:02.773823"
+    "scraped_at": "2026-05-01,T09:11:51.485543"
   },
   {
     "title": "Exceptional trade measures for countries and territories participating in or linked to the Stabilisation and Association Process",
@@ -1847,7 +2437,7 @@
     "published_date": "13-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0265_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0265_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:02.792823"
+    "scraped_at": "2026-05-01,T09:11:51.503257"
   },
   {
     "title": "Certain corporate sustainability reporting and due diligence requirements",
@@ -1857,7 +2447,7 @@
     "published_date": "13-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0264_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0264_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:02.813609"
+    "scraped_at": "2026-05-01,T09:11:51.520969"
   },
   {
     "title": "Conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction",
@@ -1867,7 +2457,7 @@
     "published_date": "13-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0263_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0263_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:02.833014"
+    "scraped_at": "2026-05-01,T09:11:51.540314"
   },
   {
     "title": "Framework for achieving climate neutrality",
@@ -1877,7 +2467,7 @@
     "published_date": "13-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0262_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0262_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:02.852567"
+    "scraped_at": "2026-05-01,T09:11:51.558245"
   },
   {
     "title": "Statistics on population and housing",
@@ -1887,7 +2477,7 @@
     "published_date": "13-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0261_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0261_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:02.871917"
+    "scraped_at": "2026-05-01,T09:11:51.576537"
   },
   {
     "title": "European Maritime Safety Agency",
@@ -1897,7 +2487,7 @@
     "published_date": "13-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0260_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0260_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:02.890747"
+    "scraped_at": "2026-05-01,T09:11:51.594480"
   },
   {
     "title": "Request for the waiver of the immunity of Grzegorz Braun",
@@ -1907,7 +2497,7 @@
     "published_date": "13-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0259_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0259_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:07.050915"
+    "scraped_at": "2026-05-01,T09:11:51.613053"
   },
   {
     "title": "Addressing transnational repression of human rights defenders",
@@ -1917,7 +2507,7 @@
     "published_date": "13-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0258_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0258_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:07.069375"
+    "scraped_at": "2026-05-01,T09:11:56.061735"
   },
   {
     "title": "Proxy voting in plenary for Members during pregnancy and after giving birth",
@@ -1927,7 +2517,7 @@
     "published_date": "13-11-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0257_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0257_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:07.087575"
+    "scraped_at": "2026-05-01,T09:11:56.080416"
   },
   {
     "title": "Audiovisual Media Services Directive obligations in the transatlantic dialogue",
@@ -1937,7 +2527,7 @@
     "published_date": "23-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0256_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0256_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:07.104552"
+    "scraped_at": "2026-05-01,T09:11:56.098441"
   },
   {
     "title": "Key objectives for the CITES COP20 meeting in Uzbekistan",
@@ -1947,7 +2537,7 @@
     "published_date": "23-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0255_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0255_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:07.121600"
+    "scraped_at": "2026-05-01,T09:11:56.116730"
   },
   {
     "title": "UN Climate Change Conference 2025 in Belém, Brazil (COP30)",
@@ -1957,7 +2547,7 @@
     "published_date": "23-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0254_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0254_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:07.139881"
+    "scraped_at": "2026-05-01,T09:11:56.134465"
   },
   {
     "title": "Renewing the EU-Africa Partnership: building common priorities ahead of the Angola Summit",
@@ -1967,7 +2557,7 @@
     "published_date": "23-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0253_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0253_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:07.160800"
+    "scraped_at": "2026-05-01,T09:11:56.152767"
   },
   {
     "title": "Preventing plastic pellet losses to reduce microplastic pollution",
@@ -1977,7 +2567,7 @@
     "published_date": "23-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0252_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0252_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:07.179077"
+    "scraped_at": "2026-05-01,T09:11:56.171495"
   },
   {
     "title": "Soil Monitoring and Resilience (Soil Monitoring Law)",
@@ -1987,7 +2577,7 @@
     "published_date": "23-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0251_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0251_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:07.197056"
+    "scraped_at": "2026-05-01,T09:11:56.189106"
   },
   {
     "title": "Dates of application and transitional provisions for chemical products",
@@ -1997,7 +2587,7 @@
     "published_date": "23-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0250_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0250_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:07.214731"
+    "scraped_at": "2026-05-01,T09:11:56.206600"
   },
   {
     "title": "Situation in Belarus, five years after the fraudulent presidential elections",
@@ -2007,7 +2597,7 @@
     "published_date": "22-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0249_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0249_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:11.412437"
+    "scraped_at": "2026-05-01,T09:11:56.224381"
   },
   {
     "title": "Polarisation and increased repression in Serbia, one year after the Novi Sad tragedy",
@@ -2017,7 +2607,7 @@
     "published_date": "22-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0248_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0248_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:11.431194"
+    "scraped_at": "2026-05-01,T09:12:00.452444"
   },
   {
     "title": "Institutional consequences of the EU enlargement negotiations",
@@ -2027,7 +2617,7 @@
     "published_date": "22-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0247_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0247_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:11.449078"
+    "scraped_at": "2026-05-01,T09:12:00.470704"
   },
   {
     "title": "Discharge 2023: Agencies",
@@ -2037,7 +2627,7 @@
     "published_date": "22-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0246_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0246_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:11.470984"
+    "scraped_at": "2026-05-01,T09:12:00.488720"
   },
   {
     "title": "Discharge 2023: EU general budget - European Council and Council",
@@ -2047,7 +2637,7 @@
     "published_date": "22-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0245_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0245_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:11.489077"
+    "scraped_at": "2026-05-01,T09:12:00.506907"
   },
   {
     "title": "General budget of the European Union for the financial year 2026 - all sections",
@@ -2057,7 +2647,7 @@
     "published_date": "22-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0244_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0244_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:11.507221"
+    "scraped_at": "2026-05-01,T09:12:00.525095"
   },
   {
     "title": "Non-objection to a delegated act: the nomenclature for the dimensions and codes for the types of intervention for the ERDF, the ESF+, the Cohesion Fund and the JTF",
@@ -2067,7 +2657,7 @@
     "published_date": "22-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0243_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0243_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:11.525734"
+    "scraped_at": "2026-05-01,T09:12:00.544735"
   },
   {
     "title": "A new legislative framework for products that is fit for the digital and sustainable transition",
@@ -2077,7 +2667,7 @@
     "published_date": "21-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0242_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0242_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:11.544516"
+    "scraped_at": "2026-05-01,T09:12:00.562355"
   },
   {
     "title": "Standing Forest and Forestry Expert Group",
@@ -2087,7 +2677,7 @@
     "published_date": "21-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0241_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0241_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:11.563347"
+    "scraped_at": "2026-05-01,T09:12:00.580300"
   },
   {
     "title": "Monitoring framework for resilient European forests",
@@ -2097,7 +2687,7 @@
     "published_date": "21-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0240_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0240_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:11.583156"
+    "scraped_at": "2026-05-01,T09:12:00.597794"
   },
   {
     "title": "Statute and funding of European political parties and European political foundations",
@@ -2107,7 +2697,7 @@
     "published_date": "21-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0239_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0239_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:15.729017"
+    "scraped_at": "2026-05-01,T09:12:00.615867"
   },
   {
     "title": "General Data Protection Regulation: additional procedural rules relating to the enforcement of the Regulation",
@@ -2117,7 +2707,7 @@
     "published_date": "21-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0238_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0238_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:15.747252"
+    "scraped_at": "2026-05-01,T09:12:05.017510"
   },
   {
     "title": "Re-attribution of scientific and technical tasks and improving cooperation among Union agencies in the area of chemicals",
@@ -2127,7 +2717,7 @@
     "published_date": "21-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0237_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0237_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:15.764021"
+    "scraped_at": "2026-05-01,T09:12:05.035743"
   },
   {
     "title": "Re-attribution of scientific and technical tasks to the European Chemicals Agency",
@@ -2137,7 +2727,7 @@
     "published_date": "21-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0236_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0236_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:15.781201"
+    "scraped_at": "2026-05-01,T09:12:05.053193"
   },
   {
     "title": "Common data platform on chemicals, establishing a monitoring and outlook framework for chemicals",
@@ -2147,7 +2737,7 @@
     "published_date": "21-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0235_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0235_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:15.799503"
+    "scraped_at": "2026-05-01,T09:12:05.070945"
   },
   {
     "title": "Driving licences",
@@ -2157,7 +2747,7 @@
     "published_date": "21-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0234_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0234_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:15.818280"
+    "scraped_at": "2026-05-01,T09:12:05.089593"
   },
   {
     "title": "Union-wide effect of certain driving disqualifications",
@@ -2167,7 +2757,7 @@
     "published_date": "21-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0233_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0233_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:15.836349"
+    "scraped_at": "2026-05-01,T09:12:05.107983"
   },
   {
     "title": "Declaration of principles for a gender-equal society",
@@ -2177,7 +2767,7 @@
     "published_date": "09-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0232_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0232_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:15.855031"
+    "scraped_at": "2026-05-01,T09:12:05.126093"
   },
   {
     "title": "Second World Summit for Social Development",
@@ -2187,7 +2777,7 @@
     "published_date": "09-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0231_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0231_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:15.872814"
+    "scraped_at": "2026-05-01,T09:12:05.143722"
   },
   {
     "title": "United response to recent Russian violations of the EU Member States’ airspace and critical infrastructure",
@@ -2197,7 +2787,7 @@
     "published_date": "09-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0230_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0230_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:15.890340"
+    "scraped_at": "2026-05-01,T09:12:05.161864"
   },
   {
     "title": "Situation in Afghanistan: supporting women and communities affected by the recent earthquakes",
@@ -2207,7 +2797,7 @@
     "published_date": "09-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0229_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0229_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:20.058551"
+    "scraped_at": "2026-05-01,T09:12:05.185756"
   },
   {
     "title": "Deliberations of the Committee on Petitions in 2024",
@@ -2217,7 +2807,7 @@
     "published_date": "09-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0228_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0228_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:20.079897"
+    "scraped_at": "2026-05-01,T09:12:10.015854"
   },
   {
     "title": "The role of simple tax rules and tax fragmentation in European competitiveness",
@@ -2227,7 +2817,7 @@
     "published_date": "09-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0227_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0227_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:20.097763"
+    "scraped_at": "2026-05-01,T09:12:10.034232"
   },
   {
     "title": "Establishment and functioning of European Works Councils - effective enforcement",
@@ -2237,7 +2827,7 @@
     "published_date": "09-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0226_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0226_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:20.117090"
+    "scraped_at": "2026-05-01,T09:12:10.052323"
   },
   {
     "title": "10th anniversary of the detention of jailed Swedish publisher Gui Minhai in China",
@@ -2247,7 +2837,7 @@
     "published_date": "09-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0225_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0225_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:20.151387"
+    "scraped_at": "2026-05-01,T09:12:10.069964"
   },
   {
     "title": "Humanitarian and security situation in Haiti, in particular the rising power of criminal gangs and the recent massacre in Cabaret",
@@ -2257,7 +2847,7 @@
     "published_date": "09-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0224_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0224_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:20.176435"
+    "scraped_at": "2026-05-01,T09:12:10.088203"
   },
   {
     "title": "Arbitrary detention of EU citizens Javier Marañón Montero and David Rodríguez Ballesta in Equatorial Guinea",
@@ -2267,7 +2857,7 @@
     "published_date": "09-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0223_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0223_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:20.195030"
+    "scraped_at": "2026-05-01,T09:12:10.106781"
   },
   {
     "title": "Genetically modified maize DP51291",
@@ -2277,7 +2867,7 @@
     "published_date": "08-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0222_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0222_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:20.213345"
+    "scraped_at": "2026-05-01,T09:12:10.126821"
   },
   {
     "title": "EU political strategy on Latin America",
@@ -2287,7 +2877,7 @@
     "published_date": "08-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0221_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0221_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:20.230192"
+    "scraped_at": "2026-05-01,T09:12:10.147057"
   },
   {
     "title": "Mobilisation of the European Globalisation Adjustment Fund for Displaced Workers following an application from Belgium - EGF/2025/001 BE/BelGaN",
@@ -2297,7 +2887,7 @@
     "published_date": "08-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0220_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0220_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:20.248929"
+    "scraped_at": "2026-05-01,T09:12:10.164823"
   },
   {
     "title": "Mobilisation of the European Globalisation Adjustment Fund for Displaced Workers following an application from Germany – EGF/2025/002 DE/Goodyear 2",
@@ -2307,7 +2897,7 @@
     "published_date": "08-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0219_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0219_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:24.440868"
+    "scraped_at": "2026-05-01,T09:12:10.182815"
   },
   {
     "title": "Draft amending budget No 2/2025: update of revenue (own resources) and adjustments to expenditure",
@@ -2317,7 +2907,7 @@
     "published_date": "08-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0218_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0218_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:24.459754"
+    "scraped_at": "2026-05-01,T09:12:14.614776"
   },
   {
     "title": "Guidelines for the employment policies of the Member States",
@@ -2327,7 +2917,7 @@
     "published_date": "08-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0217_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0217_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:24.479043"
+    "scraped_at": "2026-05-01,T09:12:14.633490"
   },
   {
     "title": "Withdrawal of the European Union from the International Rubber Study Group (IRSG)",
@@ -2337,7 +2927,7 @@
     "published_date": "08-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0216_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0216_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:24.497513"
+    "scraped_at": "2026-05-01,T09:12:14.651625"
   },
   {
     "title": "EC-Côte d’Ivoire Fisheries Partnership Agreement – Protocol on the implementation of the Agreement for 2025-2029",
@@ -2347,7 +2937,7 @@
     "published_date": "08-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0215_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0215_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:24.519019"
+    "scraped_at": "2026-05-01,T09:12:14.669457"
   },
   {
     "title": "Strengthening of the position of farmers in the food supply chain",
@@ -2357,7 +2947,7 @@
     "published_date": "08-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0214_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0214_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:24.540005"
+    "scraped_at": "2026-05-01,T09:12:14.687195"
   },
   {
     "title": "Amending certain CAP Regulations as regards the conditionality system, types of intervention in the form of direct payment, types of intervention in certain sectors and rural development and annual performance reports, data and interoperability governance, suspensions of payments, annual performance clearance and controls and penalties",
@@ -2367,7 +2957,7 @@
     "published_date": "08-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0213_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0213_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:24.558507"
+    "scraped_at": "2026-05-01,T09:12:14.706129"
   },
   {
     "title": "Role of EU policies in shaping the European Sport Model",
@@ -2377,7 +2967,7 @@
     "published_date": "07-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0212_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0212_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:24.576945"
+    "scraped_at": "2026-05-01,T09:12:14.724473"
   },
   {
     "title": "Extension of the derogation for heavy-duty vehicles with zero emissions",
@@ -2387,7 +2977,7 @@
     "published_date": "07-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0211_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0211_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:24.595672"
+    "scraped_at": "2026-05-01,T09:12:14.754096"
   },
   {
     "title": "Inland waterway transport: River Information Services (RIS)",
@@ -2397,7 +2987,7 @@
     "published_date": "07-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0210_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0210_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:24.613148"
+    "scraped_at": "2026-05-01,T09:12:14.772598"
   },
   {
     "title": "Revision of the Visa Suspension Mechanism",
@@ -2407,7 +2997,7 @@
     "published_date": "07-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0209_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0209_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:28.762451"
+    "scraped_at": "2026-05-01,T09:12:14.790848"
   },
   {
     "title": "Amending certain financial services and investment support Regulations as regards certain reporting requirements",
@@ -2417,7 +3007,7 @@
     "published_date": "07-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0208_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0208_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:28.781242"
+    "scraped_at": "2026-05-01,T09:12:19.348915"
   },
   {
     "title": "Request for the waiver of the immunity of Klára Dobrev",
@@ -2427,7 +3017,7 @@
     "published_date": "07-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0207_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0207_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:28.799083"
+    "scraped_at": "2026-05-01,T09:12:19.368299"
   },
   {
     "title": "Request for the waiver of the immunity of Ilaria Salis",
@@ -2437,7 +3027,7 @@
     "published_date": "07-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0206_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0206_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:28.817934"
+    "scraped_at": "2026-05-01,T09:12:19.386488"
   },
   {
     "title": "Request for the waiver of the immunity of Péter Magyar",
@@ -2447,7 +3037,7 @@
     "published_date": "07-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0205_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0205_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:28.835237"
+    "scraped_at": "2026-05-01,T09:12:19.404638"
   },
   {
     "title": "Request for the waiver of the immunity of Péter Magyar",
@@ -2457,7 +3047,7 @@
     "published_date": "07-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0204_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0204_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:28.853520"
+    "scraped_at": "2026-05-01,T09:12:19.422905"
   },
   {
     "title": "Request for the waiver of the immunity of Péter Magyar",
@@ -2467,7 +3057,7 @@
     "published_date": "07-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0203_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0203_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:28.871775"
+    "scraped_at": "2026-05-01,T09:12:19.441757"
   },
   {
     "title": "Request for the waiver of the immunity of Daniel Obajtek",
@@ -2477,7 +3067,7 @@
     "published_date": "07-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0202_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0202_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:28.888759"
+    "scraped_at": "2026-05-01,T09:12:19.461111"
   },
   {
     "title": "Request for the waiver of the immunity of Michał Dworczyk",
@@ -2487,7 +3077,7 @@
     "published_date": "07-10-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0201_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0201_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:28.906688"
+    "scraped_at": "2026-05-01,T09:12:19.478990"
   },
   {
     "title": "Situation in Colombia after the wave of recent terrorist attacks",
@@ -2497,7 +3087,7 @@
     "published_date": "11-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0200_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0200_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:28.924759"
+    "scraped_at": "2026-05-01,T09:12:19.496695"
   },
   {
     "title": "Gaza at breaking point: EU action to combat famine, the urgent need to release hostages and move towards a two-state solution",
@@ -2507,7 +3097,7 @@
     "published_date": "11-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0199_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0199_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:33.096127"
+    "scraped_at": "2026-05-01,T09:12:19.516740"
   },
   {
     "title": "Stock-taking of the European elections 2024",
@@ -2517,7 +3107,7 @@
     "published_date": "11-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0198_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0198_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:33.113218"
+    "scraped_at": "2026-05-01,T09:12:23.720712"
   },
   {
     "title": "Implementation and streamlining of EU internal market rules to strengthen the single market",
@@ -2527,7 +3117,7 @@
     "published_date": "11-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0197_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0197_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:33.130780"
+    "scraped_at": "2026-05-01,T09:12:23.738604"
   },
   {
     "title": "A new vision for the European Universities alliances",
@@ -2537,7 +3127,7 @@
     "published_date": "11-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0196_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0196_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:33.148473"
+    "scraped_at": "2026-05-01,T09:12:23.756078"
   },
   {
     "title": "Amending the Directive on package travel and linked travel arrangements",
@@ -2547,7 +3137,7 @@
     "published_date": "11-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0195_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0195_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:33.166218"
+    "scraped_at": "2026-05-01,T09:12:23.773913"
   },
   {
     "title": "Case of Abdoul Aziz Goma, arbitrarily detained in Togo",
@@ -2557,7 +3147,7 @@
     "published_date": "11-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0194_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0194_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:33.184193"
+    "scraped_at": "2026-05-01,T09:12:23.791212"
   },
   {
     "title": "Case of Victoire Ingabire in Rwanda",
@@ -2567,7 +3157,7 @@
     "published_date": "11-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0193_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0193_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:33.201491"
+    "scraped_at": "2026-05-01,T09:12:23.809341"
   },
   {
     "title": "Detention of EU citizens in the occupied areas of Cyprus",
@@ -2577,7 +3167,7 @@
     "published_date": "11-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0192_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0192_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:33.219098"
+    "scraped_at": "2026-05-01,T09:12:23.827290"
   },
   {
     "title": "Strengthening Moldova’s resilience against Russian hybrid threats and malign interference",
@@ -2587,7 +3177,7 @@
     "published_date": "10-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0191_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0191_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:33.237870"
+    "scraped_at": "2026-05-01,T09:12:23.845455"
   },
   {
     "title": "Governance of the internet – renewal of the mandate of the Internet Governance Forum",
@@ -2597,7 +3187,7 @@
     "published_date": "10-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0190_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0190_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:33.254983"
+    "scraped_at": "2026-05-01,T09:12:23.865238"
   },
   {
     "title": "Future of agriculture and the post-2027 common agricultural policy",
@@ -2607,7 +3197,7 @@
     "published_date": "10-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0189_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0189_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:37.412158"
+    "scraped_at": "2026-05-01,T09:12:23.884624"
   },
   {
     "title": "Possibilities for simplification of cohesion funds",
@@ -2617,7 +3207,7 @@
     "published_date": "10-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0188_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0188_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:37.430904"
+    "scraped_at": "2026-05-01,T09:12:28.063910"
   },
   {
     "title": "Role of cohesion policy investment in resolving the current housing crisis",
@@ -2627,7 +3217,7 @@
     "published_date": "10-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0187_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0187_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:37.450248"
+    "scraped_at": "2026-05-01,T09:12:28.085870"
   },
   {
     "title": "Role of cohesion policy in supporting the just transition",
@@ -2637,7 +3227,7 @@
     "published_date": "10-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0186_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0186_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:37.468147"
+    "scraped_at": "2026-05-01,T09:12:28.107041"
   },
   {
     "title": "Investments and reforms for European competitiveness and the creation of a Capital Markets Union",
@@ -2647,7 +3237,7 @@
     "published_date": "10-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0185_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0185_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:37.485520"
+    "scraped_at": "2026-05-01,T09:12:28.129524"
   },
   {
     "title": "EU-Switzerland Cooperation Agreement: European Satellite Navigation Programmes",
@@ -2657,7 +3247,7 @@
     "published_date": "10-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0184_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0184_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:37.505030"
+    "scraped_at": "2026-05-01,T09:12:28.148543"
   },
   {
     "title": "EC-India Agreement for scientific and technological cooperation: renewal of the Agreement",
@@ -2667,7 +3257,7 @@
     "published_date": "10-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0183_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0183_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:37.522673"
+    "scraped_at": "2026-05-01,T09:12:28.167282"
   },
   {
     "title": "EC-Pacific States Interim Partnership Agreement: accession of Vanuatu",
@@ -2677,7 +3267,7 @@
     "published_date": "10-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0182_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0182_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:37.540333"
+    "scraped_at": "2026-05-01,T09:12:28.185757"
   },
   {
     "title": "Extension of the timeframe for the establishment of the Eurojust case management system",
@@ -2687,7 +3277,7 @@
     "published_date": "10-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0181_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0181_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:37.558343"
+    "scraped_at": "2026-05-01,T09:12:28.203084"
   },
   {
     "title": "Insolvency proceedings: replacing Annexes A and B",
@@ -2697,7 +3287,7 @@
     "published_date": "10-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0180_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0180_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:37.575950"
+    "scraped_at": "2026-05-01,T09:12:28.219994"
   },
   {
     "title": "Securities settlement in the EU and central securities depositories (CSDs): shorter settlement cycle in the Union",
@@ -2707,7 +3297,7 @@
     "published_date": "10-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0179_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0179_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:41.793678"
+    "scraped_at": "2026-05-01,T09:12:28.237983"
   },
   {
     "title": "Carbon Border Adjustment Mechanism: simplification and strengthening",
@@ -2717,7 +3307,7 @@
     "published_date": "10-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0178_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0178_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:41.811362"
+    "scraped_at": "2026-05-01,T09:12:32.700161"
   },
   {
     "title": "Amending ERDF, Cohesion Fund and Just Transition Fund as regards specific measures to address strategic challenges in the context of the mid-term review",
@@ -2727,7 +3317,7 @@
     "published_date": "10-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0177_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0177_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:41.829418"
+    "scraped_at": "2026-05-01,T09:12:32.718406"
   },
   {
     "title": "European Social Fund (ESF+): specific measures to address strategic challenges",
@@ -2737,7 +3327,7 @@
     "published_date": "10-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0176_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0176_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:41.846824"
+    "scraped_at": "2026-05-01,T09:12:32.736050"
   },
   {
     "title": "2023 and 2024 reports on Ukraine",
@@ -2747,7 +3337,7 @@
     "published_date": "09-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0175_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0175_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:41.865385"
+    "scraped_at": "2026-05-01,T09:12:32.753475"
   },
   {
     "title": "Public procurement",
@@ -2757,7 +3347,7 @@
     "published_date": "09-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0174_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0174_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:41.883942"
+    "scraped_at": "2026-05-01,T09:12:32.771763"
   },
   {
     "title": "Partial renewal of Members of the Court of Auditors – NL nominee",
@@ -2767,7 +3357,7 @@
     "published_date": "09-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0173_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0173_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:41.901897"
+    "scraped_at": "2026-05-01,T09:12:32.790121"
   },
   {
     "title": "Partial renewal of Members of the Court of Auditors – LU nominee",
@@ -2777,7 +3367,7 @@
     "published_date": "09-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0172_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0172_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:41.919327"
+    "scraped_at": "2026-05-01,T09:12:32.808060"
   },
   {
     "title": "EU-Kyrgyz Republic Enhanced Partnership and Cooperation Agreement (Resolution)",
@@ -2787,7 +3377,7 @@
     "published_date": "09-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0171_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0171_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:41.938092"
+    "scraped_at": "2026-05-01,T09:12:32.825297"
   },
   {
     "title": "EU-Kyrgyz Republic Enhanced Partnership and Cooperation Agreement",
@@ -2797,7 +3387,7 @@
     "published_date": "09-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0170_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0170_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:41.957933"
+    "scraped_at": "2026-05-01,T09:12:32.842376"
   },
   {
     "title": "EU-Brazil Agreement: cooperation with and through Europol and the Federal Police of Brazil",
@@ -2807,7 +3397,7 @@
     "published_date": "09-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0169_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0169_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:46.152708"
+    "scraped_at": "2026-05-01,T09:12:32.859705"
   },
   {
     "title": "Circularity requirements for vehicle design and management of end-of-life vehicles",
@@ -2817,7 +3407,7 @@
     "published_date": "09-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0168_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0168_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:46.172173"
+    "scraped_at": "2026-05-01,T09:12:37.084103"
   },
   {
     "title": "Waste Framework Directive: textiles and food waste",
@@ -2827,7 +3417,7 @@
     "published_date": "09-09-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0167_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0167_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:46.191135"
+    "scraped_at": "2026-05-01,T09:12:37.101465"
   },
   {
     "title": "Tackling China's critical raw materials export restrictions",
@@ -2837,7 +3427,7 @@
     "published_date": "10-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0166_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0166_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:46.209465"
+    "scraped_at": "2026-05-01,T09:12:37.118677"
   },
   {
     "title": "Future of the EU biotechnology and biomanufacturing sector: leveraging research, boosting innovation and enhancing competitiveness",
@@ -2847,7 +3437,7 @@
     "published_date": "10-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0165_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0165_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:46.227375"
+    "scraped_at": "2026-05-01,T09:12:37.135752"
   },
   {
     "title": "Amending Regulation (EU) 2023/1542 as regards obligations of economic operators concerning battery due diligence policies",
@@ -2857,7 +3447,7 @@
     "published_date": "10-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0164_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0164_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:46.246869"
+    "scraped_at": "2026-05-01,T09:12:37.154296"
   },
   {
     "title": "Urgent need to protect religious minorities in Syria following the recent terrorist attack on Mar Elias Church in Damascus",
@@ -2867,7 +3457,7 @@
     "published_date": "10-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0163_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0163_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:46.265643"
+    "scraped_at": "2026-05-01,T09:12:37.171730"
   },
   {
     "title": "Arbitrary arrest and torture of Belgian-Portuguese researcher Joseph Figueira Martin in the Central African Republic",
@@ -2877,7 +3467,7 @@
     "published_date": "10-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0162_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0162_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:46.283149"
+    "scraped_at": "2026-05-01,T09:12:37.188739"
   },
   {
     "title": "Case of Ryan Cornelius in Dubai",
@@ -2887,7 +3477,7 @@
     "published_date": "10-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0161_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0161_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:46.300444"
+    "scraped_at": "2026-05-01,T09:12:37.205778"
   },
   {
     "title": "The human cost of Russia’s war against Ukraine and the urgent need to end Russian aggression: the situation of illegally detained civilians and prisoners of war, and the continued bombing of civilians",
@@ -2897,7 +3487,7 @@
     "published_date": "09-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0160_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0160_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:46.317876"
+    "scraped_at": "2026-05-01,T09:12:37.222510"
   },
   {
     "title": "Implementation and delivery of the Sustainable Development Goals in view of the 2025 High-Level Political Forum",
@@ -2907,7 +3497,7 @@
     "published_date": "09-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0159_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0159_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:50.835436"
+    "scraped_at": "2026-05-01,T09:12:37.239248"
   },
   {
     "title": "2023 and 2024 reports on Georgia",
@@ -2917,7 +3507,7 @@
     "published_date": "09-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0158_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0158_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:50.854290"
+    "scraped_at": "2026-05-01,T09:12:41.498464"
   },
   {
     "title": "2023 and 2024 reports on North Macedonia",
@@ -2927,7 +3517,7 @@
     "published_date": "09-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0157_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0157_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:50.871732"
+    "scraped_at": "2026-05-01,T09:12:41.515986"
   },
   {
     "title": "2023 and 2024 reports on Bosnia and Herzegovina",
@@ -2937,7 +3527,7 @@
     "published_date": "09-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0156_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0156_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:50.891095"
+    "scraped_at": "2026-05-01,T09:12:41.532439"
   },
   {
     "title": "2023 and 2024 reports on Albania",
@@ -2947,7 +3537,7 @@
     "published_date": "09-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0155_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0155_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:50.908738"
+    "scraped_at": "2026-05-01,T09:12:41.549488"
   },
   {
     "title": "Product safety and regulatory compliance in e-commerce and non-EU imports",
@@ -2957,7 +3547,7 @@
     "published_date": "09-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0154_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0154_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:50.928585"
+    "scraped_at": "2026-05-01,T09:12:41.566392"
   },
   {
     "title": "Mobilisation of the European Globalisation Adjustment Fund: Application EGF/2025/000 TA 2025 - Technical assistance at the initiative of the Commission",
@@ -2967,7 +3557,7 @@
     "published_date": "09-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0153_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0153_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:50.947370"
+    "scraped_at": "2026-05-01,T09:12:41.584181"
   },
   {
     "title": "Mobilisation of the European Union Solidarity Fund: assistance to Austria, Poland, Czechia, Slovakia and Moldova relating to floods that occurred in September 2024 and Bosnia and Herzegovina relating to floods that occurred in October 2024",
@@ -2977,7 +3567,7 @@
     "published_date": "09-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0152_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0152_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:50.965019"
+    "scraped_at": "2026-05-01,T09:12:41.601289"
   },
   {
     "title": "Draft amending budget No 1/2025: entering the surplus of the financial year 2024",
@@ -2987,7 +3577,7 @@
     "published_date": "09-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0151_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0151_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:50.983816"
+    "scraped_at": "2026-05-01,T09:12:41.619188"
   },
   {
     "title": "Amending Regulation (EU) No 1026/2012 on certain measures for the purpose of the conservation of fish stocks in relation to countries allowing non-sustainable fishing",
@@ -2997,7 +3587,7 @@
     "published_date": "09-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0150_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0150_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:51.002855"
+    "scraped_at": "2026-05-01,T09:12:41.639178"
   },
   {
     "title": "Deforestation Regulation - list of countries presenting a low or high risk",
@@ -3007,7 +3597,7 @@
     "published_date": "09-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0149_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0149_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:55.362018"
+    "scraped_at": "2026-05-01,T09:12:41.656737"
   },
   {
     "title": "Non-objection to a delegated act: amending Delegated Regulation (EU) 2025/530 as regards its date of application",
@@ -3017,7 +3607,7 @@
     "published_date": "09-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0148_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0148_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:55.380827"
+    "scraped_at": "2026-05-01,T09:12:46.421722"
   },
   {
     "title": "Preserving the memory of the victims of the post war communist period in Slovenia",
@@ -3027,7 +3617,7 @@
     "published_date": "08-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0147_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0147_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:55.398591"
+    "scraped_at": "2026-05-01,T09:12:46.439625"
   },
   {
     "title": "Security of energy supply in the EU",
@@ -3037,7 +3627,7 @@
     "published_date": "08-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0146_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0146_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:55.416399"
+    "scraped_at": "2026-05-01,T09:12:46.457923"
   },
   {
     "title": "Financial activities of the European Investment Bank – annual report 2024",
@@ -3047,7 +3637,7 @@
     "published_date": "08-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0145_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0145_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:55.435526"
+    "scraped_at": "2026-05-01,T09:12:46.475662"
   },
   {
     "title": "VAT: taxable persons, special scheme and special arrangements for declaration and payment, relating to distance sales of imported goods",
@@ -3057,7 +3647,7 @@
     "published_date": "08-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0144_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0144_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:55.458761"
+    "scraped_at": "2026-05-01,T09:12:46.493548"
   },
   {
     "title": "EU-Greenland and Denmark Sustainable Fisheries Partnership Agreement: Implementing Protocol 2025-2030 (Resolution)",
@@ -3067,7 +3657,7 @@
     "published_date": "08-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0143_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0143_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:55.477054"
+    "scraped_at": "2026-05-01,T09:12:46.511617"
   },
   {
     "title": "EU-Greenland and Denmark Sustainable Fisheries Partnership Agreement: Implementing Protocol 2025-2030",
@@ -3077,7 +3667,7 @@
     "published_date": "08-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0142_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0142_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:55.494444"
+    "scraped_at": "2026-05-01,T09:12:46.543122"
   },
   {
     "title": "Temporary derogation from certain provisions of Regulations (EU) 2017/2226 and (EU) 2016/399",
@@ -3087,7 +3677,7 @@
     "published_date": "08-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0141_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0141_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:55.511856"
+    "scraped_at": "2026-05-01,T09:12:46.560746"
   },
   {
     "title": "The role of gas storage for securing gas supplies ahead of the winter season",
@@ -3097,7 +3687,7 @@
     "published_date": "08-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0140_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0140_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:55.528951"
+    "scraped_at": "2026-05-01,T09:12:46.578877"
   },
   {
     "title": "Bulgaria's adoption of the euro on 1 January 2026",
@@ -3107,6 +3697,6 @@
     "published_date": "08-07-2025",
     "latest_ep_pdf_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0139_EN.pdf",
     "latest_ep_docx_link": "https://www.europarl.europa.eu/doceo/document/TA-10-2025-0139_EN.docx",
-    "scraped_at": "2026-04-24,T09:13:59.582197"
+    "scraped_at": "2026-05-01,T09:12:46.596437"
   }
 ]
